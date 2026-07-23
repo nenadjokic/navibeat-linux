@@ -113,9 +113,12 @@ Everything the Linux build can do today.
 
 ## Download
 
-Grab the latest **AppImage** from the Releases page:
+Grab the latest **AppImage** for your machine from the [latest release](../../releases/latest):
 
-### [Download the latest release](../../releases/latest)
+| Your machine | Download |
+| --- | --- |
+| **PC or laptop**, Intel or AMD, 64-bit | [`NaviBeat-linux-x86_64.AppImage`](../../releases/latest/download/NaviBeat-linux-x86_64.AppImage) |
+| **ARM 64-bit**: Raspberry Pi (64-bit OS), Asahi Linux on Apple Silicon, ARM servers | [`NaviBeat-linux-aarch64.AppImage`](../../releases/latest/download/NaviBeat-linux-aarch64.AppImage) |
 
 The AppImage is a single self-contained file. It carries its own Java runtime, so you do **not** need to install Java.
 
@@ -123,7 +126,7 @@ The AppImage is a single self-contained file. It carries its own Java runtime, s
 
 ## Install
 
-1. **Download** the `NaviBeat-linux-x86_64.AppImage` from the [latest release](../../releases/latest).
+1. **Download** the AppImage for your machine from the [latest release](../../releases/latest) (x86_64 for most PCs, aarch64 for a Raspberry Pi or Asahi Linux).
 2. **Make it executable:**
    ```bash
    chmod +x NaviBeat-linux-x86_64.AppImage
@@ -135,7 +138,7 @@ The AppImage is a single self-contained file. It carries its own Java runtime, s
 
 ### Requirements
 
-- **Linux x86_64** (64-bit).
+- **Linux x86_64 or ARM64 (aarch64)**, 64-bit.
 - **VLC must be installed.** NaviBeat plays audio through your system's libVLC. Install it from your distribution:
   - Fedora: `sudo dnf install vlc`
   - Debian / Ubuntu: `sudo apt install vlc`
