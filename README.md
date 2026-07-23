@@ -207,6 +207,10 @@ Every update ships here as a new release with the binary attached and a **What's
 
 ---
 
+## How it ships this fast
+
+NaviBeat is a one-person project spanning iPhone, iPad, Mac, Apple TV, Apple Watch, and now Linux. That breadth is possible because development is heavily **agentic-coding driven**: AI coding agents do the heavy lifting under the developer's direction, which is how a solo maker keeps this many native apps moving at once. The code stays private and proprietary; the agents just make the building faster.
+
 <div align="center">
 
 Made with care in Belgrade by Nenad Jokic. &nbsp;&middot;&nbsp; NaviBeat is not affiliated with the Navidrome or Subsonic projects.
