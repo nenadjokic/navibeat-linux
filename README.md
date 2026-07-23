@@ -136,6 +136,18 @@ The AppImage is a single self-contained file. It carries its own Java runtime, s
    ./NaviBeat-linux-x86_64.AppImage
    ```
 
+### Where to keep it
+
+An AppImage does not really "install", it is a single file you run directly. The natural home for it is a **`~/Applications`** folder in your home directory:
+
+```bash
+mkdir -p ~/Applications
+mv NaviBeat-linux-x86_64.AppImage ~/Applications/
+chmod +x ~/Applications/NaviBeat-linux-x86_64.AppImage
+```
+
+To get NaviBeat into your application menu with its icon, install [**AppImageLauncher**](https://github.com/TheAssassin/AppImageLauncher) from your distribution. It watches `~/Applications`, adds a menu entry, and handles updates. Without it, you can run the AppImage directly, or add a `.desktop` file to `~/.local/share/applications` by hand.
+
 ### Requirements
 
 - **Linux x86_64 or ARM64 (aarch64)**, 64-bit.
