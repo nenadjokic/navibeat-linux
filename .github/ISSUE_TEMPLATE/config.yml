@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Questions and discussion
+    url: https://github.com/nenadjokic/navibeat-linux/discussions
+    about: Ask a question, share your setup, or talk about the Linux build.
+  - name: NaviBeat website
+    url: https://navibeat.app/linux.html
+    about: Features, screenshots and downloads for NaviBeat on Linux.
+  - name: Email support
+    url: mailto:support@navibeat.app
+    about: Reach the developer directly.

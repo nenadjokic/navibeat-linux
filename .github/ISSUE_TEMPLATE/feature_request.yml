@@ -1,0 +1,24 @@
+name: Feature request or idea
+description: Suggest something NaviBeat for Linux should do.
+title: "[Idea]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The Linux build follows its Apple siblings closely, but ideas are always welcome. Tell me what you are trying to do.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like NaviBeat to do?
+      placeholder: It would be great if NaviBeat could ...
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: What are you trying to accomplish?
+      description: The problem behind the request often points to the best solution.
+      placeholder: I want to ... so that ...
+    validations:
+      required: false

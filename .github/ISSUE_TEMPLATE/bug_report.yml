@@ -1,0 +1,77 @@
+name: Bug report
+description: Something in NaviBeat for Linux is broken, misbehaving, or looks wrong.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make the Linux beta better. The more detail you give, the faster it gets fixed.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you see, and what did you expect instead?
+      placeholder: When I clicked X, the app did Y. I expected Z.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The exact steps, so it can be reproduced here.
+      placeholder: |
+        1. Open ...
+        2. Click ...
+        3. See ...
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: NaviBeat version
+      description: Shown in Settings, at the bottom of the About section.
+      placeholder: e.g. 0.9.32
+    validations:
+      required: true
+  - type: input
+    id: distro
+    attributes:
+      label: Linux distribution
+      placeholder: e.g. Fedora 44, Ubuntu 24.04, Arch
+    validations:
+      required: true
+  - type: input
+    id: desktop
+    attributes:
+      label: Desktop environment
+      description: And whether you are on Wayland or X11, if you know.
+      placeholder: e.g. GNOME 47 on Wayland, KDE Plasma 6 on X11
+    validations:
+      required: true
+  - type: input
+    id: server
+    attributes:
+      label: Music server
+      description: Which server, and its version.
+      placeholder: e.g. Navidrome 0.61.2, Airsonic-Advanced, Gonic
+    validations:
+      required: false
+  - type: dropdown
+    id: launch
+    attributes:
+      label: How did you launch it?
+      options:
+        - Double-clicked the AppImage
+        - Ran it from a terminal
+        - With --appimage-extract-and-run
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Terminal output or logs
+      description: If you ran it from a terminal, paste anything it printed. This is automatically formatted, no backticks needed.
+      render: shell
+    validations:
+      required: false

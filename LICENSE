@@ -1,0 +1,53 @@
+NaviBeat for Linux License Agreement
+
+Copyright (c) 2026 Nenad Jokic. All rights reserved.
+
+NaviBeat for Linux ("the Software") is free of charge, but it is NOT open
+source and it is NOT public domain. It is proprietary software owned by
+Nenad Jokic. By downloading, installing, or using the Software you agree to
+the terms below.
+
+1. Grant of use
+   You are granted a personal, non-exclusive, non-transferable, revocable
+   license to download, install, and use the Software at no cost, on any
+   number of your own devices, for as long as you comply with this agreement.
+
+2. Restrictions
+   You may NOT:
+   a. sell, rent, lease, sublicense, redistribute, or otherwise make the
+      Software, in whole or in part, available to any third party;
+   b. copy the Software except for a single backup copy for your own use;
+   c. modify, adapt, translate, or create derivative works based on the
+      Software;
+   d. reverse engineer, decompile, disassemble, or otherwise attempt to
+      discover the source code or underlying structure of the Software,
+      except only to the extent that this restriction is expressly prohibited
+      by applicable law;
+   e. remove, alter, or obscure any copyright, trademark, or other proprietary
+      notices;
+   f. use the Software, or any idea, code, design, or asset in it, to build,
+      train, or ship a competing or derivative product.
+
+3. Ownership
+   The Software is licensed, not sold. Nenad Jokic retains all right, title,
+   and interest in and to the Software, including all intellectual property
+   rights. All rights not expressly granted here are reserved.
+
+4. No warranty
+   The Software is provided "AS IS", without warranty of any kind, express or
+   implied, including but not limited to the warranties of merchantability,
+   fitness for a particular purpose, and non-infringement. The Software is in
+   beta and may contain errors.
+
+5. Limitation of liability
+   To the maximum extent permitted by law, in no event shall Nenad Jokic be
+   liable for any claim, damages, or other liability, whether in an action of
+   contract, tort, or otherwise, arising from, out of, or in connection with
+   the Software or its use.
+
+6. Termination
+   This license terminates automatically if you breach any of its terms. On
+   termination you must stop using the Software and delete all copies.
+
+NaviBeat is a client application. It is not affiliated with the Navidrome or
+Subsonic projects. Contact: support@navibeat.app
