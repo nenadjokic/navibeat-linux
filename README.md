@@ -207,9 +207,17 @@ Every update ships here as a new release with the binary attached and a **What's
 
 ---
 
-## How it ships this fast
+## How I build NaviBeat
 
-NaviBeat is a one-person project spanning iPhone, iPad, Mac, Apple TV, Apple Watch, and now Linux. That breadth is possible because development is heavily **agentic-coding driven**: AI coding agents do the heavy lifting under the developer's direction, which is how a solo maker keeps this many native apps moving at once. The code stays private and proprietary; the agents just make the building faster.
+NaviBeat is my hobby project, and I genuinely love it. I build the app I want to use myself first, and then I share it with the world.
+
+Keeping this many native builds moving on my own is hard: macOS, Apple TV, iPhone with its Watch app, and now Linux. So I lean on agentic coding heavily. I actively use Claude Code to help me navigate the code, chase bugs, and work through change requests. That is what lets one person keep all of these apps in sync.
+
+By day I am a Business Analyst, working mostly on direct-to-consumer products at a large FMCG company. I know a few programming languages reasonably well, but my real strength is the logic and the requirements: how a thing should behave, and how to express that across different syntaxes. So I do not just vibe-code. Every change becomes a proper, DevOps-style backlog task: I groom it, then push it through development, UAT, public beta, and finally production. There is real Q&A on my side.
+
+Still, people are only people, and I can miss things. That is why I rely so much on beta testers filing bugs and change requests, and it is why your reports genuinely matter. If anything in the app ever feels like too much AI, or just feels off, please reach out. I am always happy to fix it and run another round of CRs to make NaviBeat better.
+
+The code itself stays private and proprietary. The agents only make the building faster.
 
 <div align="center">
 
