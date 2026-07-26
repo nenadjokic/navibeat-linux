@@ -14,6 +14,9 @@ Part of the NaviBeat ecosystem. This build is for **Linux only**. For the Apple 
 [![Latest release](https://img.shields.io/github/v/release/nenadjokic/navibeat-linux?include_prereleases&label=release&color=F47B20&style=flat-square)](../../releases/latest)
 [![Download stats](https://img.shields.io/badge/download%20stats-daily%20%2F%20weekly-F47B20?style=flat-square)](https://navibeat.app/linux-stats)
 
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=flat-square&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/nenadjokic)
+[![PayPal](https://img.shields.io/badge/PayPal-0070BA?style=flat-square&logo=paypal&logoColor=white)](https://paypal.me/nenadjokicRS)
+
 </div>
 
 ---
