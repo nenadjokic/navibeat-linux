@@ -1,0 +1,5 @@
+# GitHub renders this as a "Sponsor this project" panel in the repository's right
+# sidebar and as a Sponsor button in the repo header. Same two destinations the
+# README carries, so a visitor finds them whether they read the README or not.
+buy_me_a_coffee: nenadjokic
+custom: ["https://paypal.me/nenadjokicRS"]
