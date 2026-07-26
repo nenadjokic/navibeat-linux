@@ -8,7 +8,11 @@
 
 Part of the NaviBeat ecosystem. This build is for **Linux only**. For the Apple ecosystem, see the [App Store links](#part-of-the-navibeat-ecosystem) below.
 
-[Download](#download) &nbsp;&middot;&nbsp; [Features](#features) &nbsp;&middot;&nbsp; [Install](#install) &nbsp;&middot;&nbsp; [Website](https://navibeat.app/linux.html) &nbsp;&middot;&nbsp; [Report a bug](../../issues/new/choose)
+[Download](#download) &nbsp;&middot;&nbsp; [Features](#features) &nbsp;&middot;&nbsp; [Install](#install) &nbsp;&middot;&nbsp; [Website](https://navibeat.app/linux) &nbsp;&middot;&nbsp; [Report a bug](../../issues/new/choose)
+
+[![Downloads](https://img.shields.io/github/downloads/nenadjokic/navibeat-linux/total?label=downloads&color=F47B20&style=flat-square)](https://navibeat.app/linux-stats)
+[![Latest release](https://img.shields.io/github/v/release/nenadjokic/navibeat-linux?include_prereleases&label=release&color=F47B20&style=flat-square)](../../releases/latest)
+[![Download stats](https://img.shields.io/badge/download%20stats-daily%20%2F%20weekly-F47B20?style=flat-square)](https://navibeat.app/linux-stats)
 
 </div>
 
@@ -122,6 +126,8 @@ Grab the latest **AppImage** for your machine from the [latest release](../../re
 
 The AppImage is a single self-contained file. It carries its own Java runtime, so you do **not** need to install Java.
 
+Curious how many people are running it? The counter badge above is live from the GitHub API, and [navibeat.app/linux-stats](https://navibeat.app/linux-stats) breaks it down by day, by week and by architecture. GitHub only reports a running total, so the per-day numbers are snapshots taken four times a day.
+
 ---
 
 ## Install
@@ -175,7 +181,7 @@ This repository is **for the Linux build only**. NaviBeat is a whole family of n
 | **iPad** | [App Store](https://apps.apple.com/app/navibeat/id6763518834?platform=ipad) &middot; [navibeat.app/ipad](https://navibeat.app/ipad.html) |
 | **Apple TV** | [App Store](https://apps.apple.com/app/navibeat/id6763518834?platform=appletv) &middot; [navibeat.app/appletv](https://navibeat.app/appletv.html) |
 | **Apple Watch** | [App Store](https://apps.apple.com/app/navibeat/id6763518834) &middot; [navibeat.app/applewatch](https://navibeat.app/applewatch.html) |
-| **Linux** | You are here. [navibeat.app/linux](https://navibeat.app/linux.html) |
+| **Linux** | You are here. [navibeat.app/linux](https://navibeat.app/linux) |
 
 The Linux build is **free**. The Apple builds are a one-time $5.99 Universal Purchase.
 
