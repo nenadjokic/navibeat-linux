@@ -108,6 +108,7 @@ Everything the Linux build can do today.
 - **Frosted Glass**: a translucent window, tinted for readability, that asks the compositor to blur behind it (KDE and picom oblige; GNOME shows the tint)
 - Remembers its **window size and position**
 - **Media-key and desktop integration** over MPRIS
+- **A terminal client** (`--tui`) for a headless server or a Raspberry Pi over SSH
 - **Zero analytics, zero trackers**
 
 <div align="center">
@@ -115,6 +116,48 @@ Everything the Linux build can do today.
 <img src="docs/img/now-playing-lyrics.png" alt="NaviBeat for Linux: Now Playing with a time-synced lyrics panel" width="49%"> <img src="docs/img/albums.png" alt="NaviBeat for Linux: the Albums grid" width="49%">
 
 </div>
+
+---
+
+## No desktop? It runs in your terminal
+
+NaviBeat does not need a display at all. Add `--tui` and it opens a **full terminal client**, and on
+a machine with no display it starts that way by itself. A Raspberry Pi, a home server, a NAS, a box
+you only ever reach over SSH: your library plays there, with the same queue and the same downloads
+as the window.
+
+```bash
+./NaviBeat-linux-x86_64.AppImage --tui
+```
+
+<div align="center">
+
+<img src="docs/img/tui.png" alt="NaviBeat's terminal client: the Albums screen with 200 albums and a track playing, the progress bar in NaviBeat's red to orange gradient" width="90%">
+
+</div>
+
+It is a real client, not a remote control:
+
+- **Ten screens on the number row.** Home, Albums, Artists, Songs, Playlists, Genres, Radios,
+  Favorites, Downloads and the Queue, with album, artist, playlist and genre screens behind them.
+- **Search your server** with `/`, filter what is on screen with `F`.
+- **Queue, favourite and download** from any row, the same as in the window.
+- **playerctl and your media keys** see it, exactly as they see the window.
+- **Pairing on first run**, so a headless machine never needs a desktop to get started.
+
+Keys are the ones a terminal listener already has in their fingers, and `?` shows the whole map:
+
+<div align="center">
+
+<img src="docs/img/tui-keys.png" alt="The terminal client's key map: screens, moving, playing and library keys in two columns" width="90%">
+
+</div>
+
+Your terminal stays yours. NaviBeat's colour runs across the progress bar where the terminal has
+24-bit colour, steps down to the 256 colour cube, then to plain red and yellow, and finally to ASCII
+on a serial console. Everything else takes your own palette, so NaviBeat inside your Gruvbox looks
+like part of your terminal. `--colors=truecolor|256|16|mono` overrides the detection and `NO_COLOR`
+is honoured.
 
 ---
 
@@ -127,7 +170,12 @@ Grab the latest **AppImage** for your machine from the [latest release](../../re
 | **PC or laptop**, Intel or AMD, 64-bit | [`NaviBeat-linux-x86_64.AppImage`](../../releases/latest/download/NaviBeat-linux-x86_64.AppImage) |
 | **ARM 64-bit**: Raspberry Pi (64-bit OS), Asahi Linux on Apple Silicon, ARM servers | [`NaviBeat-linux-aarch64.AppImage`](../../releases/latest/download/NaviBeat-linux-aarch64.AppImage) |
 
-The AppImage is a single self-contained file. It carries its own Java runtime, so you do **not** need to install Java.
+The AppImage is a single self-contained file. It carries **its own Java runtime and its own VLC**, so
+there is nothing to install.
+
+Already run VLC and want a smaller download? The **slim** builds use the one you have:
+[`x86_64-slim`](../../releases/latest/download/NaviBeat-linux-x86_64-slim.AppImage) &middot;
+[`aarch64-slim`](../../releases/latest/download/NaviBeat-linux-aarch64-slim.AppImage)
 
 Curious how many people are running it? The counter badge above is live from the GitHub API, and [navibeat.app/linux-stats](https://navibeat.app/linux-stats) breaks it down by day, by week and by architecture. GitHub only reports a running total, so the per-day numbers are snapshots taken four times a day.
 
@@ -159,11 +207,9 @@ To get NaviBeat into your application menu with its icon, install [**AppImageLau
 
 ### Requirements
 
-- **Linux x86_64 or ARM64 (aarch64)**, 64-bit.
-- **VLC must be installed.** NaviBeat plays audio through your system's libVLC. Install it from your distribution:
-  - Fedora: `sudo dnf install vlc`
-  - Debian / Ubuntu: `sudo apt install vlc`
-  - Arch: `sudo pacman -S vlc`
+- **Linux x86_64 or ARM64 (aarch64)**, 64-bit, with **glibc 2.36 or newer**: Debian 12, Ubuntu 22.04, Fedora 37, Raspberry Pi OS Bookworm and anything more recent.
+- **Nothing to install.** Java and VLC both travel inside the download. If you picked a `-slim` build, that one uses the VLC you already have (`sudo dnf install vlc`, `sudo apt install vlc`, `sudo pacman -S vlc`).
+- **A terminal, or a desktop.** With no display, `--tui` gives you the whole app in a terminal.
 - **FUSE** to launch the AppImage by double-clicking. Most desktops have it; if not:
   - Debian / Ubuntu: `sudo apt install libfuse2`
   - or run without FUSE: `./NaviBeat-linux-x86_64.AppImage --appimage-extract-and-run`
