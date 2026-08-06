@@ -3,6 +3,12 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.9.57 (beta)
+
+- **A log with the time on it** above the transport: what you queued, favourited or downloaded, kept
+  on screen instead of a toast you missed. It appears only while something is recent, and **Activity**
+  on Home has the whole session.
+
 ## 0.9.56 (beta)
 
 **The terminal client stops being a list.**

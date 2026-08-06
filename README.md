@@ -133,7 +133,7 @@ as the window.
 
 <div align="center">
 
-<img src="docs/img/tui.png" alt="NaviBeat's terminal client: an album page with cover art drawn in terminal cells, Up Next and time-synced lyrics in their own framed sections on the right, and a framed now playing bar" width="92%">
+<img src="docs/img/tui.png" alt="NaviBeat's terminal client: an album page with cover art drawn in terminal cells, Up Next and time-synced lyrics in their own framed sections, a framed now playing bar, and two timestamped log lines above it" width="92%">
 
 </div>
 
@@ -149,6 +149,9 @@ where you are without reading anything.
   Favorites, Downloads and the Queue, with album, artist, playlist and genre screens behind them.
 - **Search your server** with `/`, filter what is on screen with `F`, turn the side panes on or off
   for any screen with `w`.
+- **A log with the time on it.** Two lines above the transport say what you just queued, favourited
+  or downloaded, and they stay, so an action taken while you were looking elsewhere leaves a trace.
+  **Activity** on Home has the whole session.
 - **playerctl and your media keys** see it, exactly as they see the window.
 - **Pairing on first run**, so a headless machine never needs a desktop to get started.
 
