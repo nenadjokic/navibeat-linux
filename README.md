@@ -108,7 +108,8 @@ Everything the Linux build can do today.
 - **Frosted Glass**: a translucent window, tinted for readability, that asks the compositor to blur behind it (KDE and picom oblige; GNOME shows the tint)
 - Remembers its **window size and position**
 - **Media-key and desktop integration** over MPRIS
-- **A terminal client** (`--tui`) for a headless server or a Raspberry Pi over SSH
+- **A terminal client** (`--tui`) for a headless server or a Raspberry Pi over SSH, with cover art,
+  time-synced lyrics and a listening heatmap
 - **Zero analytics, zero trackers**
 
 <div align="center">
@@ -132,18 +133,47 @@ as the window.
 
 <div align="center">
 
-<img src="docs/img/tui.png" alt="NaviBeat's terminal client: the Albums screen with 200 albums and a track playing, the progress bar in NaviBeat's red to orange gradient" width="90%">
+<img src="docs/img/tui.png" alt="NaviBeat's terminal client: an album page with cover art drawn in terminal cells, Up Next and time-synced lyrics in their own framed sections on the right, and a framed now playing bar" width="92%">
 
 </div>
 
-It is a real client, not a remote control:
+**Your library, what is coming, and the words, at once.** Every section sits in its own frame, and
+the one your keys are going to is drawn in NaviBeat's own red to orange gradient, so you can see
+where you are without reading anything.
 
+- **`Tab` moves between the panes**: the library, Up Next, and the lyrics. In the queue `enter` jumps
+  to that track and `x` takes it out; in the lyrics, `enter` **seeks to that line**.
+- **Real cover art**, drawn in terminal cells. One cell carries two pixels in full colour, so an
+  album page shows the record. There is a small sleeve beside the transport too.
 - **Ten screens on the number row.** Home, Albums, Artists, Songs, Playlists, Genres, Radios,
   Favorites, Downloads and the Queue, with album, artist, playlist and genre screens behind them.
-- **Search your server** with `/`, filter what is on screen with `F`.
-- **Queue, favourite and download** from any row, the same as in the window.
+- **Search your server** with `/`, filter what is on screen with `F`, turn the side panes on or off
+  for any screen with `w`.
 - **playerctl and your media keys** see it, exactly as they see the window.
 - **Pairing on first run**, so a headless machine never needs a desktop to get started.
+
+Under 90 columns the panes stand down and the list takes the whole width, because a title that fits
+whole is worth more than a column that does not.
+
+<div align="center">
+
+<img src="docs/img/tui-listening.png" alt="NaviBeat's terminal client: a listening heatmap of seven days by twenty four hours with top artists, albums and songs" width="92%">
+
+</div>
+
+**Listening** is a heatmap of your own play log, seven days by twenty four hours, with your busiest
+hour and your top artists, albums and songs underneath. `[` and `]` move between week, month, year
+and all time. It is kept on your machine and nowhere else, and it fills as you listen.
+
+<div align="center">
+
+<img src="docs/img/tui-game.png" alt="NaviBeat's terminal client: Guess the Year, a hidden track with four candidate years and a running score" width="92%">
+
+</div>
+
+**Guess the Year** plays a track from your own library with its name hidden and asks you for the
+year. Ten points exact, eight within two, and the track keeps playing after you answer. Both of these
+sit on Home.
 
 Keys are the ones a terminal listener already has in their fingers, and `?` shows the whole map:
 

@@ -3,6 +3,29 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.9.56 (beta)
+
+**The terminal client stops being a list.**
+
+- Every section in its own frame, in NaviBeat's amber, with the focused one drawn in the app's own
+  red to orange gradient.
+- The library, Up Next and time-synced lyrics on screen at once. `Tab` moves between them; `enter`
+  in the queue jumps to a track, `enter` in the lyrics seeks to that line; `w` turns the side panes
+  on or off per screen.
+- **Cover art in the terminal**, one cell carrying two pixels in full colour, on album and artist
+  pages and beside the transport.
+- **Listening**, a heatmap of your own play log, seven days by twenty four hours, with your top
+  artists, albums and songs.
+- **Guess the Year**, a track from your library with its name hidden and four years to pick from.
+- A line along the bottom that always shows the keys that work where you are.
+
+## 0.9.55 (beta)
+
+- Cover art in search results, and square tiles instead of stretched ones.
+- Connect Last.fm opens your browser on desktops where it did not before, and the authorize address
+  is on screen with a Copy button while linking.
+- The same filter field on Albums, Artists, Songs, Playlists and Downloads.
+
 ## 0.9.54 (beta)
 
 **NaviBeat runs without a desktop.**
