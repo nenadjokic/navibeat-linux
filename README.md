@@ -109,7 +109,7 @@ Everything the Linux build can do today.
 - Remembers its **window size and position**
 - **Media-key and desktop integration** over MPRIS
 - **A terminal client** (`--tui`) for a headless server or a Raspberry Pi over SSH, with cover art,
-  time-synced lyrics and a listening heatmap
+  a full Now Playing screen, time-synced lyrics and a listening heatmap
 - **Zero analytics, zero trackers**
 
 <div align="center">
@@ -160,6 +160,21 @@ whole is worth more than a column that does not.
 
 <div align="center">
 
+<img src="docs/img/tui-nowplaying.png" alt="NaviBeat's terminal client Now Playing: a large album cover drawn in terminal cells, the track, artist, album and year beside it, then Up Next and time-synced lyrics" width="92%">
+
+</div>
+
+**Now Playing, at the size a record deserves.** A whole screen for what is on: the cover takes as
+much of the frame as it can hold, with the title, the artist, the album, the year and the format
+beside it, then what is coming next and the words, moving with the song. It is the first thing on
+Home, so `1` then `enter` gets you there from anywhere.
+
+`H` and `L` widen and narrow the side column on the list screens, two cells at a time. A library of
+short album titles wants a wider queue and a library of box sets wants the opposite, so that is
+yours to set.
+
+<div align="center">
+
 <img src="docs/img/tui-listening.png" alt="NaviBeat's terminal client: a listening heatmap of seven days by twenty four hours with top artists, albums and songs" width="92%">
 
 </div>
@@ -187,10 +202,10 @@ Keys are the ones a terminal listener already has in their fingers, and `?` show
 </div>
 
 Your terminal stays yours. NaviBeat's colour runs across the progress bar where the terminal has
-24-bit colour, steps down to the 256 colour cube, then to plain red and yellow, and finally to ASCII
-on a serial console. Everything else takes your own palette, so NaviBeat inside your Gruvbox looks
-like part of your terminal. `--colors=truecolor|256|16|mono` overrides the detection and `NO_COLOR`
-is honoured.
+24-bit colour, steps down to the 256 colour cube, then to plain red and yellow on the sixteen colour
+consoles, and finally to ASCII on a serial line. Everything else takes your own palette, so NaviBeat
+inside your Gruvbox looks like part of your terminal. `--colors=truecolor|256|16|mono` overrides the
+detection and `NO_COLOR` is honoured.
 
 ---
 

@@ -3,6 +3,21 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.9.59 (beta)
+
+- **Now Playing, full screen, in the terminal.** The cover takes as much of the frame as it can hold,
+  with the track, the artist, the album, the year and the format beside it, then what is coming next
+  and the time-synced words. First thing on Home.
+- **`H` and `L` move the divider** between the library and the side column, two cells at a time.
+- **Cover art on more terminals.** Terminals that do not announce a colour depth now get the full
+  palette, so covers arrive as pictures across a much wider range of SSH clients and emulators.
+- Resizing the window repaints the whole frame, so the screen is as clean after a drag as before it.
+
+## 0.9.58 (beta)
+
+- **Guess the Year deals from your whole library**: your favourites and your Home shelves as well as
+  your songs, and it has a round ready the moment you open it.
+
 ## 0.9.57 (beta)
 
 - **A log with the time on it** above the transport: what you queued, favourited or downloaded, kept
