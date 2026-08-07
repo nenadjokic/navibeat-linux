@@ -251,7 +251,12 @@ mv NaviBeat-linux-x86_64.AppImage ~/Applications/
 chmod +x ~/Applications/NaviBeat-linux-x86_64.AppImage
 ```
 
-To get NaviBeat into your application menu with its icon, install [**AppImageLauncher**](https://github.com/TheAssassin/AppImageLauncher) from your distribution. It watches `~/Applications`, adds a menu entry, and handles updates. Without it, you can run the AppImage directly, or add a `.desktop` file to `~/.local/share/applications` by hand.
+To get NaviBeat into your application menu with its icon, use an AppImage manager. Either of these works:
+
+- [**AppImageLauncher**](https://github.com/TheAssassin/AppImageLauncher), available in most distributions. It watches `~/Applications`, adds a menu entry, and handles updates.
+- [**AppManager**](https://github.com/kem-a/AppManager), a GTK app that installs and manages AppImages in a macOS-style way.
+
+Without either, you can run the AppImage directly, or add a `.desktop` file to `~/.local/share/applications` by hand.
 
 ### Requirements
 
