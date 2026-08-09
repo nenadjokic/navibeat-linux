@@ -6,9 +6,11 @@
 
 **A native desktop music player for your own Navidrome or OpenSubsonic server.**
 
+`sudo apt install navibeat` &nbsp;&middot;&nbsp; `sudo dnf install navibeat` &nbsp;&middot;&nbsp; [or the AppImage](#the-appimage-on-any-distribution) &nbsp;&middot;&nbsp; [how to add the repository](#the-easy-way-apt-or-dnf)
+
 Part of the NaviBeat ecosystem. This build is for **Linux only**. For the Apple ecosystem, see the [App Store links](#part-of-the-navibeat-ecosystem) below.
 
-[Download](#download) &nbsp;&middot;&nbsp; [Features](#features) &nbsp;&middot;&nbsp; [Install](#install) &nbsp;&middot;&nbsp; [Website](https://navibeat.app/linux) &nbsp;&middot;&nbsp; [Report a bug](../../issues/new/choose)
+[Install](#install) &nbsp;&middot;&nbsp; [Download](#download) &nbsp;&middot;&nbsp; [Features](#features) &nbsp;&middot;&nbsp; [Website](https://navibeat.app/linux) &nbsp;&middot;&nbsp; [Report a bug](../../issues/new/choose)
 
 [![Downloads](https://img.shields.io/github/downloads/nenadjokic/navibeat-linux/total?label=downloads&color=F47B20&style=flat-square)](https://navibeat.app/linux-stats)
 [![Latest release](https://img.shields.io/github/v/release/nenadjokic/navibeat-linux?include_prereleases&label=release&color=F47B20&style=flat-square)](../../releases/latest)
@@ -221,7 +223,37 @@ Grab the latest **AppImage** for your machine from the [latest release](../../re
 The AppImage is a single self-contained file. It carries **its own Java runtime and its own VLC**, so
 there is nothing to install.
 
-### Install it with your package manager
+### Or straight from our own host
+
+Every release also lives at **`dl.navibeat.app`**, on a path that always points at the newest build:
+
+```bash
+mkdir -p ~/Applications && cd ~/Applications
+curl -L -o NaviBeat.AppImage https://dl.navibeat.app/linux/latest/NaviBeat-linux-x86_64.AppImage
+chmod +x NaviBeat.AppImage
+./NaviBeat.AppImage
+```
+
+Swap `x86_64` for `aarch64` on a Raspberry Pi or Asahi Linux, and add `-slim` if you already have
+VLC. Re-running that same command later replaces your copy with the current release, so there is no
+version number to look up. `https://dl.navibeat.app/linux/latest.json` says which version is live,
+and every build also keeps a permanent path of its own, like
+`https://dl.navibeat.app/linux/0.9.68/NaviBeat-linux-x86_64.AppImage`, for pinning to one version.
+
+Already run VLC and want a smaller download? The **slim** builds use the one you have:
+[`x86_64-slim`](../../releases/latest/download/NaviBeat-linux-x86_64-slim.AppImage) &middot;
+[`aarch64-slim`](../../releases/latest/download/NaviBeat-linux-aarch64-slim.AppImage)
+
+Curious how many people are running it? The counter badge above is live from the GitHub API, and [navibeat.app/linux-stats](https://navibeat.app/linux-stats) breaks it down by day, by week and by architecture. GitHub only reports a running total, so the per-day numbers are snapshots taken four times a day.
+
+---
+
+## Install
+
+**The short version:** on Debian or Ubuntu and on Fedora, add the NaviBeat repository once and
+install it like any other program. Everywhere else, download the AppImage and run it.
+
+### The easy way: apt or dnf
 
 **Debian, Ubuntu, Linux Mint, Raspberry Pi OS:**
 
@@ -254,41 +286,25 @@ both architectures are in them, and the package brings its own Java runtime and 
 pulls in nothing else. On Fedora that last part matters more than it sounds: VLC lives in RPM
 Fusion, and NaviBeat does not ask you to add it.
 
-### Or straight from our own host
-
-Every release also lives at **`dl.navibeat.app`**, on a path that always points at the newest build:
-
-```bash
-mkdir -p ~/Applications && cd ~/Applications
-curl -L -o NaviBeat.AppImage https://dl.navibeat.app/linux/latest/NaviBeat-linux-x86_64.AppImage
-chmod +x NaviBeat.AppImage
-./NaviBeat.AppImage
-```
-
-Swap `x86_64` for `aarch64` on a Raspberry Pi or Asahi Linux, and add `-slim` if you already have
-VLC. Re-running that same command later replaces your copy with the current release, so there is no
-version number to look up. `https://dl.navibeat.app/linux/latest.json` says which version is live,
-and every build also keeps a permanent path of its own, like
-`https://dl.navibeat.app/linux/0.9.68/NaviBeat-linux-x86_64.AppImage`, for pinning to one version.
-
-Already run VLC and want a smaller download? The **slim** builds use the one you have:
-[`x86_64-slim`](../../releases/latest/download/NaviBeat-linux-x86_64-slim.AppImage) &middot;
-[`aarch64-slim`](../../releases/latest/download/NaviBeat-linux-aarch64-slim.AppImage)
-
-Curious how many people are running it? The counter badge above is live from the GitHub API, and [navibeat.app/linux-stats](https://navibeat.app/linux-stats) breaks it down by day, by week and by architecture. GitHub only reports a running total, so the per-day numbers are snapshots taken four times a day.
-
 ---
 
-## Install
+### The AppImage, on any distribution
 
-1. **Download** the AppImage for your machine from the [latest release](../../releases/latest) (x86_64 for most PCs, aarch64 for a Raspberry Pi or Asahi Linux).
+The AppImage runs on anything, including distributions with no NaviBeat repository. It is a single
+self-contained file: no installer, no dependencies, nothing added to your system.
+
+1. **Download** the AppImage for your machine from the [latest release](../../releases/latest)
+   (x86_64 for most PCs, aarch64 for a Raspberry Pi or Asahi Linux), or straight from our host:
+   ```bash
+   curl -L -o NaviBeat.AppImage https://dl.navibeat.app/linux/latest/NaviBeat-linux-x86_64.AppImage
+   ```
 2. **Make it executable:**
    ```bash
-   chmod +x NaviBeat-linux-x86_64.AppImage
+   chmod +x NaviBeat.AppImage
    ```
 3. **Run it:**
    ```bash
-   ./NaviBeat-linux-x86_64.AppImage
+   ./NaviBeat.AppImage
    ```
 
 ### Where to keep it
