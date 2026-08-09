@@ -221,6 +221,39 @@ Grab the latest **AppImage** for your machine from the [latest release](../../re
 The AppImage is a single self-contained file. It carries **its own Java runtime and its own VLC**, so
 there is nothing to install.
 
+### Install it with your package manager
+
+**Debian, Ubuntu, Linux Mint, Raspberry Pi OS:**
+
+```bash
+sudo install -d /etc/apt/keyrings
+curl -fsSL https://dl.navibeat.app/navibeat-repo.gpg | sudo tee /etc/apt/keyrings/navibeat.gpg >/dev/null
+echo "deb [signed-by=/etc/apt/keyrings/navibeat.gpg] https://dl.navibeat.app/deb stable main" \
+  | sudo tee /etc/apt/sources.list.d/navibeat.list
+sudo apt update && sudo apt install navibeat
+```
+
+**Fedora, RHEL, Rocky, AlmaLinux:**
+
+```bash
+sudo tee /etc/yum.repos.d/navibeat.repo >/dev/null <<'REPO'
+[navibeat]
+name=NaviBeat
+baseurl=https://dl.navibeat.app/rpm
+enabled=1
+gpgcheck=1
+repo_gpgcheck=1
+gpgkey=https://dl.navibeat.app/navibeat-repo.asc
+REPO
+sudo dnf install navibeat
+```
+
+That is the whole thing: NaviBeat lands in your application menu, and **`sudo apt upgrade` or
+`sudo dnf upgrade` carries it forward with the rest of your system**. Both repositories are signed,
+both architectures are in them, and the package brings its own Java runtime and its own VLC, so it
+pulls in nothing else. On Fedora that last part matters more than it sounds: VLC lives in RPM
+Fusion, and NaviBeat does not ask you to add it.
+
 ### Or straight from our own host
 
 Every release also lives at **`dl.navibeat.app`**, on a path that always points at the newest build:
@@ -331,6 +364,11 @@ between most versions.
 
 Nothing phones home on its own: NaviBeat itself never checks for updates and never talks to us. The
 check happens only when you or your AppImage manager asks for it.
+
+### Installed from apt or dnf?
+
+Then there is nothing to do at all. `sudo apt upgrade` and `sudo dnf upgrade` pick NaviBeat up with
+everything else on your machine.
 
 ### Or just download it again
 
