@@ -272,6 +272,56 @@ On first launch you pair the app with your server: enter its address, username a
 
 ---
 
+## Keep it updated
+
+An AppImage does not update itself, and chasing a new download every few weeks is the one genuinely
+tedious thing about the format. **From 0.9.68 every NaviBeat AppImage carries update information**,
+so a manager can update it in place: it keeps your file where it is, keeps your menu entry, and
+downloads only the parts that actually changed rather than another 200 MB.
+
+### With Gear Lever, the easy way
+
+[**Gear Lever**](https://flathub.org/apps/it.mijorus.gearlever) is a small app that manages
+AppImages. Add NaviBeat to it once, and after that it offers the update itself when one exists.
+
+1. Install Gear Lever from your distribution or Flathub.
+2. Open it and drag the NaviBeat AppImage in, or use **Open** and pick the file.
+3. It appears in your application menu with its icon. When a new version is out, Gear Lever shows an
+   **Update** button.
+
+### From a terminal
+
+[**AppImageUpdate**](https://github.com/AppImage/AppImageUpdate) does the same thing with one
+command, and is the tool the update information is written for:
+
+```bash
+AppImageUpdate ~/Applications/NaviBeat-linux-x86_64.AppImage
+```
+
+It reads the update information inside your copy, compares it against the current release, and
+downloads only the changed blocks. If you are already on the newest build it says so and stops.
+
+[**AppImageLauncher**](https://github.com/TheAssassin/AppImageLauncher) also uses it, so if you
+already keep your AppImages with that, updates work through the same mechanism.
+
+### What it is doing under the hood
+
+The AppImage carries a line that says where to look, and a small `.zsync` file ships beside every
+release. That file is a map of the release, block by block. An update tool fetches the map, compares
+it against the copy on your disk, and asks the server only for the blocks that differ. On a typical
+release that is a fraction of the whole file, because the bundled Java runtime and VLC do not change
+between most versions.
+
+Nothing phones home on its own: NaviBeat itself never checks for updates and never talks to us. The
+check happens only when you or your AppImage manager asks for it.
+
+### Or just download it again
+
+Every release stays on this page. Downloading the new AppImage over the old one is always a valid
+update, and your settings, pairing and downloads live in your home directory, not in the file.
+
+---
+
 ## Part of the NaviBeat ecosystem
 
 This repository is **for the Linux build only**. NaviBeat is a whole family of native apps, and the Apple builds live on the App Store as a single **Universal Purchase** (buy once, use on every Apple device):
