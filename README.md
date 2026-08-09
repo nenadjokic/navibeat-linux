@@ -6,7 +6,7 @@
 
 **A native desktop music player for your own Navidrome or OpenSubsonic server.**
 
-`sudo apt install navibeat` &nbsp;&middot;&nbsp; `sudo dnf install navibeat` &nbsp;&middot;&nbsp; [or the AppImage](#the-appimage-on-any-distribution) &nbsp;&middot;&nbsp; [how to add the repository](#the-easy-way-apt-or-dnf)
+**[Add the NaviBeat repository once](#the-easy-way-apt-or-dnf)**, then `apt install navibeat` and every update after it arrives with `apt upgrade`. &nbsp;&middot;&nbsp; [Or just run the AppImage.](#the-appimage-on-any-distribution)
 
 Part of the NaviBeat ecosystem. This build is for **Linux only**. For the Apple ecosystem, see the [App Store links](#part-of-the-navibeat-ecosystem) below.
 
@@ -250,10 +250,15 @@ Curious how many people are running it? The counter badge above is live from the
 
 ## Install
 
-**The short version:** on Debian or Ubuntu and on Fedora, add the NaviBeat repository once and
-install it like any other program. Everywhere else, download the AppImage and run it.
+**The short version:** on Debian, Ubuntu and Fedora, run the block below once to add the NaviBeat
+repository, and after that NaviBeat installs and updates like anything else on your system.
+Everywhere else, download the AppImage and run it.
 
 ### The easy way: apt or dnf
+
+NaviBeat is not in Debian's or Fedora's own repositories and cannot be: those carry open source
+software with a distribution maintainer behind each package. So the first step tells your system
+where to find NaviBeat, the same way Chrome, Spotify, Docker and VS Code do it. **You do this once.**
 
 **Debian, Ubuntu, Linux Mint, Raspberry Pi OS:**
 
@@ -280,8 +285,9 @@ REPO
 sudo dnf install navibeat
 ```
 
-That is the whole thing: NaviBeat lands in your application menu, and **`sudo apt upgrade` or
-`sudo dnf upgrade` carries it forward with the rest of your system**. Both repositories are signed,
+**From then on it is automatic.** NaviBeat lands in your application menu, and every new version
+arrives with the `sudo apt upgrade` or `sudo dnf upgrade` you already run. You never come back to
+this page for an update. Both repositories are signed,
 both architectures are in them, and the package brings its own Java runtime and its own VLC, so it
 pulls in nothing else. On Fedora that last part matters more than it sounds: VLC lives in RPM
 Fusion, and NaviBeat does not ask you to add it.
