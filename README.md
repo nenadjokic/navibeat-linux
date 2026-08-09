@@ -221,6 +221,23 @@ Grab the latest **AppImage** for your machine from the [latest release](../../re
 The AppImage is a single self-contained file. It carries **its own Java runtime and its own VLC**, so
 there is nothing to install.
 
+### Or straight from our own host
+
+Every release also lives at **`dl.navibeat.app`**, on a path that always points at the newest build:
+
+```bash
+mkdir -p ~/Applications && cd ~/Applications
+curl -L -o NaviBeat.AppImage https://dl.navibeat.app/linux/latest/NaviBeat-linux-x86_64.AppImage
+chmod +x NaviBeat.AppImage
+./NaviBeat.AppImage
+```
+
+Swap `x86_64` for `aarch64` on a Raspberry Pi or Asahi Linux, and add `-slim` if you already have
+VLC. Re-running that same command later replaces your copy with the current release, so there is no
+version number to look up. `https://dl.navibeat.app/linux/latest.json` says which version is live,
+and every build also keeps a permanent path of its own, like
+`https://dl.navibeat.app/linux/0.9.68/NaviBeat-linux-x86_64.AppImage`, for pinning to one version.
+
 Already run VLC and want a smaller download? The **slim** builds use the one you have:
 [`x86_64-slim`](../../releases/latest/download/NaviBeat-linux-x86_64-slim.AppImage) &middot;
 [`aarch64-slim`](../../releases/latest/download/NaviBeat-linux-aarch64-slim.AppImage)
