@@ -3,6 +3,16 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.9.73 (beta)
+
+- **Handing playback over is instant, wherever you are in the track.** Press Continue here on your
+  phone, tablet or another desktop and this machine steps aside within a single poll. Taking a song
+  over three minutes in now works exactly like taking it over three seconds in.
+- **The sidebar reaches the bottom of the window**, and the playing bar sits centred over the column
+  it belongs to rather than spanning the frame.
+- **A server that stops answering says which request stopped.** The log names the failing call and
+  the reason, so a connection problem can be traced from one run.
+
 ## 0.9.72 (beta)
 
 - **Choose your audio output and device.** Settings > Playback names the sound system NaviBeat plays
