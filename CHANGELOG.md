@@ -3,6 +3,41 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.9.72 (beta)
+
+- **Choose your audio output and device.** Settings > Playback names the sound system NaviBeat plays
+  through and the device inside it. Both lists are read from your own VLC, so you see exactly the
+  modules it has, with its own descriptions. ALSA straight to a DAC's hardware entry addresses the
+  card rather than the sound server.
+- **Saved servers.** Save the server you are on, save the others as you pair with them, and each is a
+  two-click switch carrying the address, the account, the password, any proxy headers and a client
+  certificate. With two or more saved, the sidebar names the active one with the others one click
+  away. The switch pings the target before it changes anything, so a server that is asleep costs an
+  error message and not the pairing you had.
+- **DSD plays.** A `.dsf` or `.dff` used to run the progress bar over silence: libVLC 3 carries no DSD
+  codec mapping, so the file opens, the stream arrives as an unknown codec and nothing is rendered.
+  NaviBeat now asks the server for FLAC instead of the untouched file, losslessly. A deliberate lossy
+  tier on a metered link still wins.
+- **A ListenBrainz instance of your own.** Put its address beside the token and NaviBeat talks to that
+  one instead of the public service. Similar-artist lookups against the public Labs host stop, so
+  nothing about your listening goes to a service you left.
+- **A genre tree built from your own tags.** Off by default, separator configurable. `Rock - Metal -
+  Alternative` becomes a browsable tree and tags without the separator are left alone.
+- **Answer your desktop's search box**, optional and off by default. Your artists and albums appear in
+  the GNOME overview. Nothing is copied into a system index: the shell asks NaviBeat while it runs.
+- **Mixes as buttons** when the NaviBeat Mixes plugin asks for that style, with the server's own icon
+  and colour per mix.
+- **Downloads waiting their turn are visible** under "Up next" instead of appearing to have been
+  dropped.
+
+## 0.9.71 through 0.9.60 (beta)
+
+Casting to UPnP speakers, the Rockbox sync sweep and its zero-byte repair, the terminal client's Now
+Playing screen and its lyrics that no longer get cut, the artist and album enrichment sources, the
+first three GitHub issues from Fedora and Niri, playlist mirroring, smart playlist screens, and the
+Windows parity round. Each one's full note is on its own
+[release page](../../releases).
+
 ## 0.9.59 (beta)
 
 - **Now Playing, full screen, in the terminal.** The cover takes as much of the frame as it can hold,
