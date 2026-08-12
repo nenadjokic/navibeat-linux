@@ -19,7 +19,7 @@ Every release attaches a fresh AppImage. Newest first. Each version's full note 
 - **Every shelf on Home lifts under the pointer** and offers Play and Shuffle where your hand
   already is.
 - **Cover art keeps trying until it arrives.** A picture that does not come through on the first
-  request is fetched again rather than left as it was.
+  request is fetched again.
 - **The library sorts the way the Mac does**, with numbers read as numbers rather than as text.
 
 ## 0.9.73 (beta)
