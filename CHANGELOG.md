@@ -3,6 +3,25 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.9.74 (beta)
+
+- **Your whole library can stay downloaded.** Switch on Offline Library in Settings and NaviBeat
+  keeps every album on this machine by itself, so the music is there whether the server is or not.
+- **A playlist you have downloaded opens with no connection**, with its songs in the order you
+  saved them, and a downloaded playlist carries a mark on its cover so you can see at a glance
+  what is already on disk.
+- **Lyrics also come from a lyrics plugin on your server.** If your server has one, its words
+  reach the Now Playing page and the terminal client along with everything else.
+- **The Last.fm listener count travels with the song**, on the playing bar, on the Now Playing
+  page and in the mini player.
+- **The artist and the album under the playing title open their pages.** Click either name and
+  you are there, with the music playing.
+- **Every shelf on Home lifts under the pointer** and offers Play and Shuffle where your hand
+  already is.
+- **Cover art keeps trying until it arrives.** A picture that does not come through on the first
+  request is fetched again rather than left as it was.
+- **The library sorts the way the Mac does**, with numbers read as numbers rather than as text.
+
 ## 0.9.73 (beta)
 
 - **Handing playback over is instant, wherever you are in the track.** Press Continue here on your
