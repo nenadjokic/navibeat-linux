@@ -3,6 +3,58 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.9.79 (beta)
+
+- **Every screen laid against its Mac twin.** A list, a grid, a row and a menu are the same size
+  and carry the same words on either machine, down to the sentence under a section.
+- **The same menu wherever you right click**, on a song, an album, an artist, a playlist and a row
+  in the sidebar, with rating as a submenu and a two step Remove Download on a song already here.
+- **Composers finds every composer your server credits**, however your files are tagged.
+- **Album, artist and playlist pages carry what the Mac carries**: similar tracks and similar
+  albums, your server's own biography and counts, and star ratings in a column of their own.
+- **Settings gained the screens it was missing**: What's New & Tips, the open source notices with
+  each licence in full, Library statistics read from your server, a corrections list you can add
+  to, jump buttons, and Shuffle Exclusions on a screen of its own.
+- **Every heading in Downloads opens the collection it names**, and the download queue has a
+  screen of its own.
+
+## 0.9.78 (beta)
+
+- **Browsing tells you the truth about what it is showing.** A playlist, an album and an artist
+  page open with everything they really hold, and the numbers beside them are the server's own.
+- **Albums play in their own order**, disc by disc and track by track, including music you
+  downloaded before track numbers were kept.
+- **Every cover keeps its own tile** as a grid scrolls.
+
+## 0.9.77 (beta)
+
+- **A command palette on Ctrl+K**: one field that reaches every screen and every playback action
+  without leaving the keyboard.
+- **A setup wizard**, six pages after your first pairing, so the app arrives configured.
+- **Smart playlists on the desktop**: build a playlist out of rules and it keeps itself current.
+- **Year in Review**, five slides with a card you can share.
+- **A ten band equalizer**, presets and a preamp, applied live.
+- **Servers behind Cloudflare Access or Authelia connect**: client certificates and custom HTTP
+  headers are enterable at pairing.
+
+## 0.9.76 (beta)
+
+- **A playlist downloads from its own page.** The button reads how much of it is already here:
+  Download 7/12 while it fills, Downloaded when it is complete, and a second press gives the
+  space back.
+- **Playlist rows carry the full trailing cluster**: stars, heart, download mark and running time.
+- **A starred song already on this device looks like it.**
+
+## 0.9.75 (beta)
+
+- **Similar Albums sits at the foot of an album**, so the record you are looking at suggests the
+  next one.
+- **Every track menu offers the same verbs wherever you open it**, grouped so the one you want is
+  where your eye already went.
+- **Favorites got the row the rest of the app uses**: cover art, stars, heart, download mark and
+  running time, with a right click that offers everything.
+- **Genres can be ordered by size or by name.**
+
 ## 0.9.74 (beta)
 
 - **Your whole library can stay downloaded.** Switch on Offline Library in Settings and NaviBeat
