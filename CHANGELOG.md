@@ -3,6 +3,19 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.9.80 (beta)
+
+- **Browsing your downloads narrows the whole library.** With the downloaded only filter on, every
+  grid and every list shows what is on this machine, and scrolling further keeps you inside it.
+- **An album cover opens full size**, uncropped, the whole square as your server holds it.
+- **Every credited artist is its own link**, on the album page, on the tile in the grid and on the
+  shelf at home.
+- **Saving the queue makes a new playlist**: Save from Up Next opens the new playlist form and
+  creates it when you say Create.
+- **Time Machine takes a date range**, a start date and an end date, filled in with the last
+  thirty days.
+- **Search starts from an empty field** when you reach for it again.
+
 ## 0.9.79 (beta)
 
 - **Every screen laid against its Mac twin.** A list, a grid, a row and a menu are the same size
