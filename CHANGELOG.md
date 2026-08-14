@@ -3,6 +3,22 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.9.81 (beta)
+
+- **Searching a list searches your whole library**, so the match comes back from everything on your
+  server rather than from the rows already loaded on screen.
+- **Sorting stays where you put it**, and it is still the order you chose the next time you open
+  NaviBeat.
+- **A new server address is checked before it is saved**, so the address you end up with is one
+  that answers.
+- **The cache limit is enforced.** The copies kept automatically while you stream are the ones that
+  make room, and the downloads you asked for stay where they are.
+- **The equalizer's band controls reach playback and stay set**: presets, the ten bands and the
+  parametric band frequencies.
+- **Every credited artist is its own link**, wherever a song is listed.
+- **A song opened through a genre carries its full controls**: the heart, the whole right click
+  menu, and Shuffle on the page you found it on.
+
 ## 0.9.80 (beta)
 
 - **Browsing your downloads narrows the whole library.** With the downloaded only filter on, every
