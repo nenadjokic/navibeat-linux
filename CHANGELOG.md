@@ -3,6 +3,16 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.9.82 (beta)
+
+- **A service that cannot be reached says so**, in a sentence about the network rather than about
+  your account, with a way to try again.
+- **The address you see in Settings is the address the page behind it lists**: the Saved Servers row
+  and the Saved Servers page read from one place.
+- **Three window buttons**: minimise, maximise and close, with full screen on F11.
+- **Casting says something when a device does not answer**, and the music comes back to this machine
+  at the second it left.
+
 ## 0.9.81 (beta)
 
 - **Searching a list searches your whole library**, so the match comes back from everything on your
