@@ -3,6 +3,18 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.9.83 (beta)
+
+- **Downloaded albums read in disc and track order** on the Downloads screen, the same order the
+  album has on its own page.
+- **Your downloaded playlists are on the Downloads screen**, grouped under Playlists with the songs
+  of them that are on this machine.
+- **A stutter between you and your server no longer ends the song**: a connection that drops for a
+  moment is treated as the interruption it is and the music carries on.
+- **AutoMix gets the last word** at the end of the queue and keeps the music going.
+- **Frosted glass can always be switched back off**: a window closed by force with the setting on
+  opens plainly the next time, so Settings is never behind the glass.
+
 ## 0.9.82 (beta)
 
 - **A service that cannot be reached says so**, in a sentence about the network rather than about
