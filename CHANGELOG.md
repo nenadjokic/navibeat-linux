@@ -3,6 +3,39 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.9.86 (beta)
+
+- **Settings is seven groups instead of one long scroll**: Server & Library, Playback & Audio,
+  Appearance & Language, Scrobbling & Stats, Devices, Downloads & Storage, About.
+- **Settings has a search box** that knows the words people actually type: "bit perfect" finds
+  Direct Playback, "gapless" finds the switch, "eq" finds the equalizer. Each result names the
+  section it lives under.
+- **Made for You is one shelf with a badge for every source feeding it**, Last.fm, ListenBrainz and
+  AudioMuse on a server that runs the plugin. The ListenBrainz weekly mixes moved into that shelf.
+- **A transcoded song whose download fails now streams** instead of trying the same download again.
+- **Continue here plays the song on the card**, even when the queue saved on your server belongs to
+  a different session.
+- **Every label on the accent colour is derived from the colour you picked**, so no accent makes a
+  button unreadable.
+- **Your library selection reaches the whole-genre shuffle, smart playlists** and the shelves that
+  resolve a song by name.
+- **Speakers can be added by typing an address** when the search does not find them, including the
+  description path Denon and Marantz receivers use.
+
+## 0.9.85 (beta)
+
+- **Covers appear the moment they arrive.** Every grid, shelf and sleeve puts artwork on screen as
+  soon as it is ready, with the pointer anywhere you like.
+- **A song that stops short is finished properly**: a stream that ends earlier than the track really
+  is gets picked back up and played out.
+
+## 0.9.84 (beta)
+
+- **Play it on the speakers and televisions you already own.** The Play on menu lists the UPnP and
+  DLNA renderers on your network, and NaviBeat serves the audio from this machine, so anything in
+  your library reaches the device whether or not it has heard of your music server.
+- `navibeat --cast-scan` prints what this machine can see, from the terminal.
+
 ## 0.9.83 (beta)
 
 - **Downloaded albums read in disc and track order** on the Downloads screen, the same order the
