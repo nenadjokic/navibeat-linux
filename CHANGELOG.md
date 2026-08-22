@@ -3,6 +3,20 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.9.88 (beta)
+
+- **Crossfade now runs on streamed songs**, not only on downloaded ones. NaviBeat quietly fetches the
+  playing song's file in the background, and once it has landed the end of that song can overlap the
+  start of the next. If it has not landed by the time the fade would start, the song ends the normal
+  way. Nothing is ever fetched a second time from your server for the fade: a server transcoding on
+  the fly ignores a request for the end of a file and sends the beginning instead, so a tail pulled
+  from the server would fade out the opening of the song you are leaving. Off by default, in Settings
+  under Playback and Audio, one to twelve seconds.
+- **The same album no longer appears more than once.** With more than one music folder selected, an
+  album, artist or song living in two of them was drawn once per folder, so Recently Added could show
+  the same record three times. Fixed on album lists, artist lists and genre browsing, and your
+  server's own ordering is kept.
+
 ## 0.9.87 (beta)
 
 - **Install it with `pacman`.** A signed pacman repository now sits beside apt and dnf, for Arch
