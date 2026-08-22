@@ -6,7 +6,7 @@
 
 **A native desktop music player for your own Navidrome or OpenSubsonic server.**
 
-**[Add the NaviBeat repository once](#the-easy-way-apt-dnf-or-pacman)**, then `apt install navibeat` and every update after it arrives with `apt upgrade`. &nbsp;&middot;&nbsp; [Or just run the AppImage.](#the-appimage-on-any-distribution)
+**[Add the NaviBeat repository once](#the-easy-way-apt-dnf-or-pacman)**, then `apt install navibeat` on Debian and Ubuntu, `dnf install navibeat` on Fedora, or `pacman -Syu navibeat` on Arch. Every update after it arrives with the upgrade you already run. &nbsp;&middot;&nbsp; [Or just run the AppImage.](#the-appimage-on-any-distribution)
 
 Part of the NaviBeat ecosystem. This build is for **Linux only**. For the Apple ecosystem, see the [App Store links](#part-of-the-navibeat-ecosystem) below.
 
