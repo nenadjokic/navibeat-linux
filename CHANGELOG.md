@@ -3,6 +3,32 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.9.87 (beta)
+
+- **Install it with `pacman`.** A signed pacman repository now sits beside apt and dnf, for Arch
+  Linux and Arch Linux ARM. It uses the `libvlc` already in Arch's own repositories, which is how a
+  package on Arch is expected to behave; the Debian and Fedora packages keep their own copy.
+- **The terminal client opens with a proper welcome.** Run `--tui` on a machine that has never seen
+  NaviBeat and you get the mark drawn in terminal cells, the server address, username and password on
+  one card, custom HTTP headers and a client certificate a keystroke away, and a live meter while it
+  reaches your server. A six page setup wizard follows, so the terminal asks everything the window
+  asks on a first run.
+- **Karaoke lyrics in the terminal**, filling each line in as it is sung, word by word where your
+  server has the timings. `K` cycles the style, and it shares the setting with the window.
+- **Album pages stop truncating.** A movement title is no longer cut where every movement looks the
+  same, work headers wrap, and a disc header keeps its number when the disc also has a name.
+- **Now Playing, Cover first or Text first.** A setting that hands the artwork's height to the title
+  and the performers, for libraries where every sleeve is the same picture.
+- **Favourites as a way to browse**, across songs, albums and artists, and it survives a restart.
+- **The Downloads filter lists playlists a mirror completed**, not only the ones downloaded as
+  playlists.
+- **Home refresh reaches every shelf**, so a playlist deleted on the server disappears when you ask.
+- **A stream that dies mid track holds the song on every path it can fail on**, including a
+  connection dropped by a tunnel or a proxy, and the log now says why a track was judged finished.
+- **Coming home switches the next track to your lossless copy immediately** rather than a few tracks
+  later, and an AAC download from Navidrome is saved under a name that opens.
+- Clicking the launcher icon of an already running NaviBeat raises the window.
+
 ## 0.9.86 (beta)
 
 - **Settings is seven groups instead of one long scroll**: Server & Library, Playback & Audio,
