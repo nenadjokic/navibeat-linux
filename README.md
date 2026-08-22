@@ -6,7 +6,7 @@
 
 **A native desktop music player for your own Navidrome or OpenSubsonic server.**
 
-**[Add the NaviBeat repository once](#the-easy-way-apt-or-dnf)**, then `apt install navibeat` and every update after it arrives with `apt upgrade`. &nbsp;&middot;&nbsp; [Or just run the AppImage.](#the-appimage-on-any-distribution)
+**[Add the NaviBeat repository once](#the-easy-way-apt-dnf-or-pacman)**, then `apt install navibeat` and every update after it arrives with `apt upgrade`. &nbsp;&middot;&nbsp; [Or just run the AppImage.](#the-appimage-on-any-distribution)
 
 Part of the NaviBeat ecosystem. This build is for **Linux only**. For the Apple ecosystem, see the [App Store links](#part-of-the-navibeat-ecosystem) below.
 
@@ -254,7 +254,7 @@ Curious how many people are running it? The counter badge above is live from the
 repository, and after that NaviBeat installs and updates like anything else on your system.
 Everywhere else, download the AppImage and run it.
 
-### The easy way: apt or dnf
+### The easy way: apt, dnf or pacman
 
 NaviBeat is not in Debian's or Fedora's own repositories and cannot be: those carry open source
 software with a distribution maintainer behind each package. So the first step tells your system
@@ -285,12 +285,28 @@ REPO
 sudo dnf install navibeat
 ```
 
+**Arch Linux, and Arch Linux ARM:**
+
+```bash
+curl -fsSL https://dl.navibeat.app/navibeat-repo.asc -o /tmp/navibeat-repo.asc
+sudo pacman-key --add /tmp/navibeat-repo.asc
+sudo pacman-key --lsign-key 0940E93F0EA97642
+sudo tee -a /etc/pacman.conf >/dev/null <<'CONF'
+
+[navibeat]
+SigLevel = Required
+Server = https://dl.navibeat.app/arch/$arch
+CONF
+sudo pacman -Syu navibeat
+```
+
 **From then on it is automatic.** NaviBeat lands in your application menu, and every new version
-arrives with the `sudo apt upgrade` or `sudo dnf upgrade` you already run. You never come back to
-this page for an update. Both repositories are signed,
-both architectures are in them, and the package brings its own Java runtime and its own VLC, so it
-pulls in nothing else. On Fedora that last part matters more than it sounds: VLC lives in RPM
-Fusion, and NaviBeat does not ask you to add it.
+arrives with the `sudo apt upgrade`, `sudo dnf upgrade` or `sudo pacman -Syu` you already run. You
+never come back to this page for an update. All three repositories are signed and carry both
+architectures. The Debian and Fedora packages bring their own Java runtime and their own VLC, so they
+pull in nothing else, and on Fedora that matters more than it sounds: VLC lives in RPM Fusion, and
+NaviBeat does not ask you to add it. The Arch package brings its own Java and uses the `libvlc`
+already in Arch's repositories, which is how a package on Arch is expected to behave.
 
 ---
 
@@ -387,10 +403,10 @@ between most versions.
 Nothing phones home on its own: NaviBeat itself never checks for updates and never talks to us. The
 check happens only when you or your AppImage manager asks for it.
 
-### Installed from apt or dnf?
+### Installed from apt, dnf or pacman?
 
-Then there is nothing to do at all. `sudo apt upgrade` and `sudo dnf upgrade` pick NaviBeat up with
-everything else on your machine.
+Then there is nothing to do at all. `sudo apt upgrade`, `sudo dnf upgrade` and `sudo pacman -Syu`
+pick NaviBeat up with everything else on your machine.
 
 ### Or just download it again
 
