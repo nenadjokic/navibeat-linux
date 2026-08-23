@@ -3,6 +3,20 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.9.90 (beta)
+
+- **Changing the send format now replaces the files on your player.** An MP3 library sent as MP3
+  keeps the same filenames, so switching it to Original (or to any other format) used to hit the
+  "skip files that are already there" rule and leave the old encodes in place. A format change
+  replaces, whatever the duplicate setting says.
+- **A track that fails to transfer is no longer recorded as delivered.** The player's own record is
+  written from what actually landed, so anything that failed is picked up by the next sync instead
+  of being remembered as done.
+- **Click the time on the right of the scrubber** to switch it between time remaining and the total
+  length of the track. Elapsed stays on the left, the choice is remembered, and it works on Now
+  Playing, in the player bar, in the mini player and in the terminal client.
+- The **Libraries** picker in Settings opens over the whole window.
+
 ## 0.9.89 (beta)
 
 - **NaviSyncRock can send the original file.** A new **Original (no transcode)** option in
