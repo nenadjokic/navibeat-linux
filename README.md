@@ -69,7 +69,7 @@ Everything the Linux build can do today.
 ### Playing music
 
 - **Now Playing** with album art, a quality badge (FLAC, MP3 bitrate, and more), star ratings, and full transport controls
-- **Time-synced lyrics**, with an optional word-by-word karaoke mode when your server has the timing
+- **Time-synced lyrics**, with an optional word-by-word karaoke mode when your server has the timing, and an optional online lookup for songs your server has none for
 - **Mini Player** in a compact window that stays on top of your other work
 - **Continue where you left off**: resume a track partway through, or start it over
 - **AutoMix** endless playback
@@ -86,7 +86,8 @@ Everything the Linux build can do today.
 ### NaviSyncRock: your library on a Rockbox player
 
 - Send music to a connected **Rockbox iPod or player**, right from the app
-- Your **server** does the transcoding; album art is re-encoded so old hardware renders it
+- Choose the **format and bitrate**, or **Original (no transcode)** to copy the file your server already has, untouched
+- Your **server** does any transcoding; album art is re-encoded so old hardware renders it
 - Playlists are written correctly, and plays made on the device sync back
 - Set it up from **Settings > NaviSyncRock**, or just plug the player in and it appears in the sidebar
 - **This is a paid add-on on the Mac. On Linux it is free.**
