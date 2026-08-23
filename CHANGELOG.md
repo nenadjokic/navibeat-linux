@@ -3,6 +3,27 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.9.91 (beta)
+
+**Drag anything onto your Rockbox player.** An album, an artist, a whole playlist or a
+selection of songs, from any list in the library, straight onto the player in the sidebar. A
+card follows the cursor with the cover and the name of what you are carrying, and the player
+row lights up when it is ready to take it.
+
+**The send panel is a window of its own.** It floats above the app, so a transfer started from
+a drag or a menu is visible wherever you are: the track in flight with its own progress, the
+whole job, what is queued behind it, and separate Skip Current and Cancel All.
+
+**Send to RockBox from the playlist page**, and every row on the Downloads screen can be
+dragged to the player too.
+
+**Shuffle part-way through a playlist now shuffles what is left.** What you have already heard
+stays in Earlier in Queue, in the order you heard it.
+
+**Play on an artist starts their newest release** and queues the whole catalogue behind it,
+newest to oldest. Top Songs, Shuffle and Radio are the other three buttons and each still does
+its own job.
+
 ## 0.9.90 (beta)
 
 - **Changing the send format now replaces the files on your player.** An MP3 library sent as MP3
