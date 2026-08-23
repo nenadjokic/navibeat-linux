@@ -3,6 +3,25 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.9.89 (beta)
+
+- **NaviSyncRock can send the original file.** A new **Original (no transcode)** option in
+  Settings > NaviSyncRock copies the file your server already has, untouched: same format, same
+  bitrate, nothing re-encoded. The name on the device follows the real file, so a FLAC arrives as
+  `.flac`. Rockbox plays FLAC, ALAC and WAV, and those files are several times larger than an MP3,
+  so keep an eye on the space. DSD is the one exception: no Rockbox player decodes it, so those
+  tracks are sent as FLAC.
+- **The send settings are in Settings now**, as one Send Format card: format, bitrate, album art
+  size and what to do about a file that is already there. The connected player's manufacturer,
+  model, screen and serial show there too.
+- **Lyrics your own server does not have.** A new switch in Settings > Lyrics, off until you turn it
+  on, asks lrclib.net for songs your server has no lyrics for. Your server is always asked first and
+  its lyrics plugin gets a moment to answer; only when neither has anything does NaviBeat ask, and
+  it sends just the song title, artist, album and length.
+- **The quality badge has a switch.** Settings > Now Playing turns the codec and bitrate chip off on
+  Now Playing, in the player bar, in the mini player and in the terminal client.
+- **Speakers has its own section** under Settings > Devices, opening the UPnP and DLNA picker.
+
 ## 0.9.88 (beta)
 
 - **Crossfade now runs on streamed songs**, not only on downloaded ones. NaviBeat quietly fetches the
