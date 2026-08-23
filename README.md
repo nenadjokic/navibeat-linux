@@ -68,7 +68,7 @@ Everything the Linux build can do today.
 
 ### Playing music
 
-- **Now Playing** with album art, a quality badge (FLAC, MP3 bitrate, and more), star ratings, and full transport controls
+- **Now Playing** with album art, a quality badge (FLAC, MP3 bitrate, and more) you can switch off, star ratings, and full transport controls. Click the time on the right to swap it between time remaining and total length
 - **Time-synced lyrics**, with an optional word-by-word karaoke mode when your server has the timing, and an optional online lookup for songs your server has none for
 - **Mini Player** in a compact window that stays on top of your other work
 - **Continue where you left off**: resume a track partway through, or start it over
