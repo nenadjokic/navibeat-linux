@@ -75,6 +75,7 @@ Everything the Linux build can do today.
 - **AutoMix** endless playback
 - **10-band equalizer** (32 Hz to 16 kHz, plus or minus 12 dB per band), **ReplayGain**, and **crossfade**
 - **Stream quality** picker: send the original file untouched, or ask the server to transcode to a lighter tier
+- **Get Info** on any track: credited artists, original release date, format, sample rate, bit depth, channels, size, path, MusicBrainz and ISRC, ReplayGain and the Comment tag, every value selectable
 
 ### Offline and downloads
 
@@ -112,7 +113,8 @@ Everything the Linux build can do today.
 - Remembers its **window size and position**
 - **Media-key and desktop integration** over MPRIS
 - **A terminal client** (`--tui`) for a headless server or a Raspberry Pi over SSH, with cover art,
-  a full Now Playing screen, time-synced lyrics and a listening heatmap
+  a full Now Playing screen, time-synced lyrics, a listening heatmap, and an Up Next you can walk
+  and play from without leaving the record you are looking at
 - **Zero analytics, zero trackers**
 
 <div align="center">
@@ -251,9 +253,9 @@ Curious how many people are running it? The counter badge above is live from the
 
 ## Install
 
-**The short version:** on Debian, Ubuntu and Fedora, run the block below once to add the NaviBeat
-repository, and after that NaviBeat installs and updates like anything else on your system.
-Everywhere else, download the AppImage and run it.
+**The short version:** on Debian, Ubuntu, Fedora and Arch, run the block below once to add the
+NaviBeat repository, and after that NaviBeat installs and updates like anything else on your
+system. Everywhere else, download the AppImage and run it.
 
 ### The easy way: apt, dnf or pacman
 

@@ -3,6 +3,27 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.9.92 (beta)
+
+**Get Info on any track.** Right click a song and the panel opens with everything your server
+said about that file: the credited artists, the original release date, the format, the sample
+rate, the bit depth and the channels, the size and the path, MusicBrainz and ISRC, the
+ReplayGain values, and the Comment tag. Every value is selectable, so an id or a path can be
+copied straight out of it.
+
+**The NaviBeat Mixes covers are redrawn.** Each mix carries its own symbol as a watermark under
+the NaviBeat seal, and the gradients run the way the artwork was designed to. A mix whose name
+starts with an emoji drops it on the tile and keeps it in the caption underneath, so the
+artwork stays clean and the playlist keeps its name.
+
+**Your Last.fm and Your ListenBrainz fill in on a cold launch.** Top artists arrive with their
+pictures and open the artist page on a click. Top tracks find their album art and play.
+
+**In the terminal client, Up Next is walkable from the big Now Playing screen.** The arrows or
+`j` and `k` move a cursor through it, enter plays what is under the cursor, `x` takes a song
+out, and the list scrolls so the fifth song is reachable. The transport strip gained a volume
+bar and marks for shuffle and repeat beside the clock.
+
 ## 0.9.91 (beta)
 
 **Drag anything onto your Rockbox player.** An album, an artist, a whole playlist or a
