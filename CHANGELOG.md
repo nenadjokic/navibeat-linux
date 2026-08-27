@@ -3,6 +3,28 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.9.94 (beta)
+
+- Now Playing is rebuilt. It opens over the whole window and splits it down the middle: the player
+  on the left, your lyrics or your queue on the right, and a capsule in the corner to swap them.
+  Closing it puts you back exactly where you were, on the same page and at the same scroll position.
+- The artwork grows into its own half on a wide display instead of stopping at a fixed size, and it
+  sits centred there rather than pinned to the edge.
+- Lyrics and Up Next open as a floating card over the content on every other screen, with their own
+  close button, instead of a column pinned to the side.
+- The playing bar floats. Album covers slide underneath it instead of stopping at a line across the
+  window, and the last row of every list stays reachable.
+- Track position, off by default: a line like "Track 3 of 11" under the album on Now Playing.
+  When what is playing is not one whole album it counts your queue and says so instead.
+- Explicit songs are marked with an E after the title, on song rows, album headers and Now Playing,
+  taken from your server's own tag.
+- Search has a "Found in lyrics" section for the songs you have downloaded, and each result shows
+  the line that matched.
+- Lyrics grow with the panel. A wider window gets bigger words rather than more empty space.
+- Long artist biographies open properly in every language, including Japanese, Chinese and Korean.
+- The check that decides between your home address and your public one no longer waits behind the
+  app's own traffic, and Settings, Server addresses has a Check again button beside it.
+
 ## 0.9.93 (beta)
 
 - Play at the end of a playlist starts it again from the first track, and so does Play after
