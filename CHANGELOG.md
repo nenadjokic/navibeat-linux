@@ -3,6 +3,24 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.9.93 (beta)
+
+- Play at the end of a playlist starts it again from the first track, and so does Play after
+  skipping past the last song.
+- The library keeps your place. Open an album, come back, and the list is where you left it, in
+  every tab that has one.
+- A tunnel no longer counts as being at home. On someone else's Wi-Fi with a VPN up, the app was
+  treating the home address answering as proof you were on your own network and streaming at the
+  home quality tier; it now checks whether this machine shares the server's subnet.
+- With no network at all, browsing goes straight to your downloads instead of waiting for a request
+  to time out first.
+- New in Settings: Show disc number. Off shows only a disc's own subtitle, and a disc without one
+  draws no header at all.
+- The artwork swipe tells a skip from a dismiss by the whole gesture rather than its first
+  millimetre.
+- The Playlists toolbar plus offers both a plain and a smart playlist, and the Smart Playlists
+  section stays out of the way until you have one.
+
 ## 0.9.92 (beta)
 
 **Get Info on any track.** Right click a song and the panel opens with everything your server
