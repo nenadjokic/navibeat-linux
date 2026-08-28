@@ -263,6 +263,11 @@ NaviBeat is not in Debian's or Fedora's own repositories and cannot be: those ca
 software with a distribution maintainer behind each package. So the first step tells your system
 where to find NaviBeat, the same way Chrome, Spotify, Docker and VS Code do it. **You do this once.**
 
+**Copy each block whole, not one line at a time.** The lines in a block belong together, and in
+the Fedora and Arch blocks everything from `<<'REPO'` or `<<'CONF'` down to the closing word is a
+single command that writes the file. Paste only its first line and the shell waits for the rest
+instead of running anything. The copy button in the top right of each block takes all of it.
+
 **Debian, Ubuntu, Linux Mint, Raspberry Pi OS:**
 
 ```bash
