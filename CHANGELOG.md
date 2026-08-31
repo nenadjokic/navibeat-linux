@@ -3,6 +3,24 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.9.96 (beta)
+
+- Downloads is a tree in the terminal client: artist, album, song, and every branch says what is
+  happening under it. Press `t` on Songs and your whole library folds into the same shape, with how
+  many songs and how long sit on each branch, and how much of it is already on this computer.
+- Troubleshooting, new under Settings, About. Switches for playback, downloads, artwork, scrobbling,
+  casting and a plugged-in Rockbox player, everything off until you turn one on, and a Prepare log
+  button that writes a file into your Downloads folder. Your server address, your username and
+  anything that looks like a credential are stripped from every line before it is written.
+- A cover shown whole sits on a blurred copy of the sleeve instead of a flat bar.
+- The Rockbox panel names the tracks it is copying rather than counting them, and each one carries
+  its own progress.
+- Lyrics animation speed: Smooth, Fast or Instant.
+- Record labels are a place you can browse.
+- Search finds what you type when an artist and a title go in together.
+- Home shelves can hide entries that are not in your library.
+- A TUI button beside minimise and maximise hands the window over to the terminal client.
+
 ## 0.9.94 (beta)
 
 - Now Playing is rebuilt. It opens over the whole window and splits it down the middle: the player
