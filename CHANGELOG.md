@@ -3,6 +3,18 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.9.97 (beta)
+
+- Playlist covers now get the same Shuffle and Play buttons on hover that album covers have, and the downloaded mark moves clear of them.
+- Rockbox sync shows one progress bar for the whole run, a checklist of the steps, and the songs being copied listed by name.
+- On KDE you can drag the window freely onto a second monitor.
+- The "can't reach your server" banner is far less trigger-happy: a single dropped request no longer turns the app red.
+- Terminal player: Now Playing splits evenly with Up Next and lyrics.
+- Casting on Android: "Stop Cast" keeps your place instead of jumping to the first song, and the phone stays paused rather than starting playback on its own.
+- Android: Back returns to where you came from, Home or Search, instead of always Library, and songs in a playlist have a long-press menu with Show Album.
+- Android Auto: when your car turns on, NaviBeat comes back to your saved queue, paused where you left off.
+- Android TV: a proper widescreen launcher banner, a sign-in screen that scrolls so the Connect button and status stay visible, the on-screen keyboard opens when you press a field, and an option to fit non-square cover art instead of cropping it.
+
 ## 0.9.96 (beta)
 
 - Downloads is a tree in the terminal client: artist, album, song, and every branch says what is
