@@ -3,6 +3,14 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.9.98 (beta)
+
+- Some albums have a track you never want to hear. Right-click any song and pick "Skip this song when the album plays". It stays in the album, greyed with a mark, and it never enters the queue when you press Play. Play it directly and it still plays.
+- Cast to a UPnP speaker once and it is written down, so it comes back next time even if it answers no search. Right-click a saved speaker to rename it or forget it, and the name you give it is the name you see.
+- Album and track credits use one separator everywhere.
+- A play or pause press can no longer leave the player claiming it is playing with an empty queue. It rebuilds the queue instead.
+- Installing an older build over a newer one no longer drops the record of which downloaded files belong to which track.
+
 ## 0.9.97 (beta)
 
 - Playlist covers now get the same Shuffle and Play buttons on hover that album covers have, and the downloaded mark moves clear of them.

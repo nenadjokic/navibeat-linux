@@ -241,7 +241,7 @@ Swap `x86_64` for `aarch64` on a Raspberry Pi or Asahi Linux, and add `-slim` if
 VLC. Re-running that same command later replaces your copy with the current release, so there is no
 version number to look up. `https://dl.navibeat.app/linux/latest.json` says which version is live,
 and every build also keeps a permanent path of its own, like
-`https://dl.navibeat.app/linux/0.9.97/NaviBeat-linux-x86_64.AppImage`, for pinning to one version.
+`https://dl.navibeat.app/linux/0.9.98/NaviBeat-linux-x86_64.AppImage`, for pinning to one version.
 
 Already run VLC and want a smaller download? The **slim** builds use the one you have:
 [`x86_64-slim`](../../releases/latest/download/NaviBeat-linux-x86_64-slim.AppImage) &middot;
