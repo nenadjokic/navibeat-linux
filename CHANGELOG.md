@@ -3,6 +3,16 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.9.99 (beta)
+
+- A downloaded song remembers the quality it was fetched at; the player badge shows that quality and Get Info gains two lines under Bitrate, the quality asked for and the bitrate measured from the file.
+- A saved speaker that does not answer is listed greyed with "Not found. It may be off, or something else has its address." Right-click it to rename or forget it.
+- The first-run wizard's Scrobbling step carries ListenBrainz beside Last.fm.
+- OFFLINE replaces the download word on the quality badge while the server is away, and the Last.fm listener count reads "L.FM".
+- A transcoded stream whose decoder guesses a wildly wrong length uses the library's own duration.
+- The NaviFin card in "More from Nenad Jokic" opens the App Store.
+- Android: lyrics keep time with the singer, a song that will not decode skips to the next one, the listener count names its source, Get Info gets the two download lines, and a downloads database that will not open is moved aside and kept.
+
 ## 0.9.98 (beta)
 
 - Some albums have a track you never want to hear. Right-click any song and pick "Skip this song when the album plays". It stays in the album, greyed with a mark, and it never enters the queue when you press Play. Play it directly and it still plays.
