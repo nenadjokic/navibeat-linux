@@ -3,6 +3,17 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.10.0 (beta)
+
+- The artwork shrinks a little while paused and springs back on play. Lyrics get a text size and an active line colour in Settings, a soft shadow on the line being sung, a pause line between verses that fills in until the next verse, and line changes that glide. The blurred backdrop is painted once per song, so it stays still while the lyrics scroll.
+- Terminal client: Now Playing on the big screen is rebuilt with the sleeve on top and everything under it, and three new keys: `m` for AutoMix, `z` for the sleep timer, `*` then a digit to rate.
+- Settings: "Hide NaviBeat Mixes in Playlists", "Show Upcoming Concerts on Artist Pages", custom HTTP headers editable after pairing (checked against the server before they are saved), and Customise Home moves exactly the row you moved, Favorited included.
+- "Continue here" pauses the device you left and starts where that device really is. "Pick up where you left off" offers an album only when the queue was that album. After a resume the clock and the scrubber agree with what you hear.
+- Back on the keyboard: Alt+Left or Ctrl+[ pops the page like the toolbar chevron, the mouse's back button does the same, and the command palette lists Back.
+- MPRIS `SetPosition` moves the song, so `playerctl position 90` and desktop widgets that seek to an absolute time work (GitHub #16).
+- Rockbox sync keeps several songs in flight and starts the next one the moment one lands.
+- Android: swipe the artwork on Now Playing to change songs, with a cover-flow tilt; the same lyrics settings, pause line and paused artwork; Top Songs shows the best five. Android TV gets the lyrics settings, the pause line, the paused artwork, and genre chips on the album page.
+
 ## 0.9.99 (beta)
 
 - A downloaded song remembers the quality it was fetched at; the player badge shows that quality and Get Info gains two lines under Bitrate, the quality asked for and the bitrate measured from the file.
