@@ -3,6 +3,17 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.0
+
+NaviBeat for Linux leaves beta. Same app, same free download, and from here the version number says what the release ritual has been doing for a while: every build is put on an x86_64 bench and an arm64 Raspberry Pi, launched and driven there, and its decoder proven in a container that has no VLC of its own.
+
+- Playlists can be sorted by Name, Recently Created or Recently Changed, and the choice is remembered. Pinned playlists stay on top under all three.
+- Keyboard: Ctrl+L loves the playing song, Ctrl+Alt+1 to 5 rate it, Ctrl+Alt+0 clears the rating. Settings has a Keyboard Shortcuts page listing every chord, and the command palette carries Love and Rate.
+- Rename and Delete are offered only on playlists you own, on the grid as well as inside the playlist.
+- The Similar Tracks shelf on an album page leaves out the album you are looking at.
+- Terminal client: a Settings tab on the comma key with twenty-four colour themes, your terminal's own colours among them, plus the Now Playing rework from the last release.
+- Android: the same playlist sort, the same ownership rule, and voice search understands Italian and Polish play verbs and the word for shuffle in nine languages.
+
 ## 0.10.2 (beta)
 
 - Terminal client: a Settings tab on the comma key with a Theme row and twenty-four colour sets, NaviBeat's own, your terminal's colours, and the twenty-two Omarchy themes; the choice is worn at once and remembered. The tab also carries the Now Playing switches and the server you are signed in to.

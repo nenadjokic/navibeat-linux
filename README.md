@@ -23,11 +23,11 @@ Part of the NaviBeat ecosystem. This build is for **Linux only**. For the Apple 
 
 ---
 
-## Beta software, please read
+## Version 1.0
 
-> **NaviBeat for Linux is in BETA.** It is built and tested on real hardware, but it is early, and **you may encounter bugs.** If something breaks, misbehaves, or looks wrong, that is genuinely useful to know: please [open an issue](../../issues/new/choose) so it can be fixed. This is exactly the stage where your reports shape the app.
+> **NaviBeat for Linux is 1.0.** Every release is put on real hardware before it goes out, an x86_64 bench and an arm64 Raspberry Pi, and each artifact is launched and driven there rather than only built. If something breaks, misbehaves, or looks wrong, please [open an issue](../../issues/new/choose) so it can be fixed: your reports are what shaped this release and they are what shapes the next one.
 
-The Apple builds (iPhone, iPad, Mac, Apple TV, Apple Watch) are shipping releases on the App Store. **The Linux build is the newest member of the family and the one still finding its feet**, so treat it as a beta and keep your expectations set to "promising, not polished."
+The Apple builds (iPhone, iPad, Mac, Apple TV, Apple Watch) are shipping releases on the App Store. **The Linux build is the newest member of the family**, and it now carries the same features and the same release ritual: signed apt, dnf and pacman repositories, four AppImages with delta updates, and a clean-room decode test on both architectures for every build.
 
 ---
 
@@ -241,7 +241,7 @@ Swap `x86_64` for `aarch64` on a Raspberry Pi or Asahi Linux, and add `-slim` if
 VLC. Re-running that same command later replaces your copy with the current release, so there is no
 version number to look up. `https://dl.navibeat.app/linux/latest.json` says which version is live,
 and every build also keeps a permanent path of its own, like
-`https://dl.navibeat.app/linux/0.10.2/NaviBeat-linux-x86_64.AppImage`, for pinning to one version.
+`https://dl.navibeat.app/linux/1.0.0/NaviBeat-linux-x86_64.AppImage`, for pinning to one version.
 
 Already run VLC and want a smaller download? The **slim** builds use the one you have:
 [`x86_64-slim`](../../releases/latest/download/NaviBeat-linux-x86_64-slim.AppImage) &middot;
@@ -444,7 +444,7 @@ Website: **[navibeat.app](https://navibeat.app/)**
 
 ## Feedback and bug reports
 
-The Linux build is beta, and your reports are how it gets better.
+Your reports are how this build gets better, and they always have been.
 
 - **Found a bug?** [Open a bug report](../../issues/new/choose).
 - **Have an idea, or a question?** Start a [Discussion](../../discussions) or open a [feature request](../../issues/new/choose).
