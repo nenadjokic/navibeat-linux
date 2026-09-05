@@ -3,6 +3,12 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.10.1 (beta)
+
+- Light theme: text and icons in the accent colour use a darker shade on light grounds, so the playing song's title, headings, stars and links keep at least 3:1 contrast with any accent.
+- The "Continue on this device" card keeps its progress bar moving between reports from the other device.
+- Android TV rebuilt to match NaviBeat on Apple TV: a tab bar on top, Home with a "Pick up where you left off" carousel, quick play and shelves, a two-column Now Playing with Up Next, Settings sorted into categories with a sidebar, the playing song marked in every list, the song's own cover on Now Playing, and a quiet note where a cover is missing. Phone: the heart fills only once the server has saved it, the genre picker runs full width. Watch: crown volume steps match the phone.
+
 ## 0.10.0 (beta)
 
 - The artwork shrinks a little while paused and springs back on play. Lyrics get a text size and an active line colour in Settings, a soft shadow on the line being sung, a pause line between verses that fills in until the next verse, and line changes that glide. The blurred backdrop is painted once per song, so it stays still while the lyrics scroll.
