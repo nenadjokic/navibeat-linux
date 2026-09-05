@@ -3,6 +3,14 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 0.10.2 (beta)
+
+- Terminal client: a Settings tab on the comma key with a Theme row and twenty-four colour sets, NaviBeat's own, your terminal's colours, and the twenty-two Omarchy themes; the choice is worn at once and remembered. The tab also carries the Now Playing switches and the server you are signed in to.
+- Terminal client, Now Playing: Tab and the arrows reach Up Next with a visible cursor, the timeline has air on both sides, the controls row reads SHUFFLE, REPEAT, AUTOMIX and a wide volume bar in bold, the rating stars are spaced out.
+- Light theme: accent-coloured text and glyphs use the darker ink shade everywhere, the playing song's title, the stars, the hearts and the quality badge included.
+- Album pages: the Similar Tracks shelf leaves out the album you are looking at. Playlists: Rename and Delete only on playlists you own.
+- Android: the same ink on the light theme, the same Similar Tracks rule, and Rename and Delete only on your own playlists in the playlist list.
+
 ## 0.10.1 (beta)
 
 - Light theme: text and icons in the accent colour use a darker shade on light grounds, so the playing song's title, headings, stars and links keep at least 3:1 contrast with any accent.
