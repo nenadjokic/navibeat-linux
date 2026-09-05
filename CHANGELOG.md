@@ -12,7 +12,6 @@ NaviBeat for Linux leaves beta. Same app, same free download, and from here the 
 - Rename and Delete are offered only on playlists you own, on the grid as well as inside the playlist.
 - The Similar Tracks shelf on an album page leaves out the album you are looking at.
 - Terminal client: a Settings tab on the comma key with twenty-four colour themes, your terminal's own colours among them, plus the Now Playing rework from the last release.
-- Android: the same playlist sort, the same ownership rule, and voice search understands Italian and Polish play verbs and the word for shuffle in nine languages.
 
 ## 0.10.2 (beta)
 
@@ -20,13 +19,11 @@ NaviBeat for Linux leaves beta. Same app, same free download, and from here the 
 - Terminal client, Now Playing: Tab and the arrows reach Up Next with a visible cursor, the timeline has air on both sides, the controls row reads SHUFFLE, REPEAT, AUTOMIX and a wide volume bar in bold, the rating stars are spaced out.
 - Light theme: accent-coloured text and glyphs use the darker ink shade everywhere, the playing song's title, the stars, the hearts and the quality badge included.
 - Album pages: the Similar Tracks shelf leaves out the album you are looking at. Playlists: Rename and Delete only on playlists you own.
-- Android: the same ink on the light theme, the same Similar Tracks rule, and Rename and Delete only on your own playlists in the playlist list.
 
 ## 0.10.1 (beta)
 
 - Light theme: text and icons in the accent colour use a darker shade on light grounds, so the playing song's title, headings, stars and links keep at least 3:1 contrast with any accent.
 - The "Continue on this device" card keeps its progress bar moving between reports from the other device.
-- Android TV rebuilt to match NaviBeat on Apple TV: a tab bar on top, Home with a "Pick up where you left off" carousel, quick play and shelves, a two-column Now Playing with Up Next, Settings sorted into categories with a sidebar, the playing song marked in every list, the song's own cover on Now Playing, and a quiet note where a cover is missing. Phone: the heart fills only once the server has saved it, the genre picker runs full width. Watch: crown volume steps match the phone.
 
 ## 0.10.0 (beta)
 
@@ -37,7 +34,6 @@ NaviBeat for Linux leaves beta. Same app, same free download, and from here the 
 - Back on the keyboard: Alt+Left or Ctrl+[ pops the page like the toolbar chevron, the mouse's back button does the same, and the command palette lists Back.
 - MPRIS `SetPosition` moves the song, so `playerctl position 90` and desktop widgets that seek to an absolute time work (GitHub #16).
 - Rockbox sync keeps several songs in flight and starts the next one the moment one lands.
-- Android: swipe the artwork on Now Playing to change songs, with a cover-flow tilt; the same lyrics settings, pause line and paused artwork; Top Songs shows the best five. Android TV gets the lyrics settings, the pause line, the paused artwork, and genre chips on the album page.
 
 ## 0.9.99 (beta)
 
@@ -47,7 +43,6 @@ NaviBeat for Linux leaves beta. Same app, same free download, and from here the 
 - OFFLINE replaces the download word on the quality badge while the server is away, and the Last.fm listener count reads "L.FM".
 - A transcoded stream whose decoder guesses a wildly wrong length uses the library's own duration.
 - The NaviFin card in "More from Nenad Jokic" opens the App Store.
-- Android: lyrics keep time with the singer, a song that will not decode skips to the next one, the listener count names its source, Get Info gets the two download lines, and a downloads database that will not open is moved aside and kept.
 
 ## 0.9.98 (beta)
 
@@ -64,10 +59,6 @@ NaviBeat for Linux leaves beta. Same app, same free download, and from here the 
 - On KDE you can drag the window freely onto a second monitor.
 - The "can't reach your server" banner is far less trigger-happy: a single dropped request no longer turns the app red.
 - Terminal player: Now Playing splits evenly with Up Next and lyrics.
-- Casting on Android: "Stop Cast" keeps your place instead of jumping to the first song, and the phone stays paused rather than starting playback on its own.
-- Android: Back returns to where you came from, Home or Search, instead of always Library, and songs in a playlist have a long-press menu with Show Album.
-- Android Auto: when your car turns on, NaviBeat comes back to your saved queue, paused where you left off.
-- Android TV: a proper widescreen launcher banner, a sign-in screen that scrolls so the Connect button and status stay visible, the on-screen keyboard opens when you press a field, and an option to fit non-square cover art instead of cropping it.
 
 ## 0.9.96 (beta)
 
