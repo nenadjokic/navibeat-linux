@@ -3,6 +3,18 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.1
+
+- Settings opens again. A build step wrote one class in a way the Java runtime refuses to load, so clicking Settings closed the app. It reached every build from 0.10.0 to 1.0.0.
+- The AppImage starts on Arch and anywhere else that loads D-Bus early. It carried its own copy of two system libraries, and two copies in one process was the crash.
+- Terminal client: karaoke lyrics fill in as they are sung rather than a fifth of a second late, the timeline is longer, and the controls have air between them and it.
+- Play through the server, when Navidrome has jukebox mode switched on: the output picker offers it beside your speakers, with the server's own volume.
+- NaviSyncRock: the failed and skipped counts open a list of which songs and why, with Copy log and Save log file, and a finished run offers to send the failed ones again. A dropped connection is retried once by itself.
+- Show play counts, a switch in Settings, on every song row.
+- A favourite is orange again on the light theme.
+- Pairing says whether the password starts or ends with a space, and why this particular address might not be reachable.
+- Every switch in Settings has a name for a screen reader.
+
 ## 1.0.0
 
 NaviBeat for Linux leaves beta. Same app, same free download, and from here the version number says what the release ritual has been doing for a while: every build is put on an x86_64 bench and an arm64 Raspberry Pi, launched and driven there, and its decoder proven in a container that has no VLC of its own.
