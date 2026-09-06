@@ -3,6 +3,10 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.2
+
+- The mini player's `...` menu opens again. It had done nothing since August, so that window could not reach Add to Playlist, Show Album, Show Artist, Favorite, Rate, Last.fm, ListenBrainz, AutoMix or the sleep timer.
+
 ## 1.0.1
 
 - Settings opens again. A build step wrote one class in a way the Java runtime refuses to load, so clicking Settings closed the app. It reached every build from 0.10.0 to 1.0.0.
