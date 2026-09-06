@@ -3,6 +3,12 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.4
+
+- The artwork moves when the song does. Drag the cover sideways to change track and it turns as it goes; the same motion runs on its own when a song ends. Two switches in Settings, Appearance, each with a small drawing of what it does. Both on, and both stand aside when your desktop asks for reduced motion.
+- The terminal client slides its sleeve when the song changes.
+- A lossless rate is written as `1.5K` instead of `1529 kbps`, and the mini player's badges wrap to a second line rather than running off the card.
+
 ## 1.0.2
 
 - The mini player's `...` menu opens again. It had done nothing since August, so that window could not reach Add to Playlist, Show Album, Show Artist, Favorite, Rate, Last.fm, ListenBrainz, AutoMix or the sleep timer.
