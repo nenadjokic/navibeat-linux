@@ -3,6 +3,16 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.5
+
+- Output and volume now sit in the bottom left corner of the Now Playing cover, in their own capsule, mirroring the panel toggle on the other side. Both buttons take a hover circle.
+- The output picker's first row, This computer, works. Choosing it while a jukebox session was running used to do nothing at all, which left no way back off the server.
+- The artist and album under the cover open again. Either one closes the cover and takes you to that page.
+- Lyrics say where they came from, and a source's "sorry, no lyrics" filler is refused rather than displayed. The rule reads the shape of the body, never the words, so a real song whose lyric is one line repeated still shows.
+- The favourite heart obeys Offline Mode. A tap that cannot reach the server says so instead of drawing a filled heart that never saved.
+- An equalizer band takes a typed number. Click the readout, type -3.4, press Enter. The step is 0.1 dB, a comma works as a decimal separator, and out of range clamps rather than refusing.
+- Artwork handed to the system media controls is published at a size the screens can use, from the full cover rather than a cached thumbnail.
+
 ## 1.0.4
 
 - The artwork moves when the song does. Drag the cover sideways to change track and it turns as it goes; the same motion runs on its own when a song ends. Two switches in Settings, Appearance, each with a small drawing of what it does. Both on, and both stand aside when your desktop asks for reduced motion.
