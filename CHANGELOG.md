@@ -3,6 +3,15 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.6
+
+- Now Playing has a Stop in its menu. It clears the queue and the current track, which is the thing pause does not do. Your desktop's own media keys and Stop button now do the same; before this they cleared what was coming up and kept playing.
+- A cover the server could not answer used to stay blank for the rest of the session. Retries now space themselves out instead of stopping, so artwork appears when the connection does.
+- Albums show their edition, Deluxe Edition or 2011 Remaster, beside the year and the genres. If your server already appends it to the album name, the title is tidied so you see it once.
+- Tracks played from the Downloads screen bring their format badge, their explicit marking and their ReplayGain values into Get Info. A library sync no longer loses disc and track order on downloaded albums, and unstarring a track on the server now reaches the copy on your disk.
+- When NaviBeat cannot reach your server it waits longer between attempts instead of asking every five seconds. The first two tries are as quick as they were.
+- The player no longer reports a position of zero when it holds nothing.
+
 ## 1.0.5
 
 - Output and volume now sit in the bottom left corner of the Now Playing cover, in their own capsule, mirroring the panel toggle on the other side. Both buttons take a hover circle.
