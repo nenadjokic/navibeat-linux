@@ -3,6 +3,18 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.7
+
+- Seek somewhere in NaviBeat and your desktop's own media widget follows straight away. It used to sit on the old position until it happened to ask again, and some panels never ask.
+- While a track is buffering, that widget reads as paused instead of counting forward through audio that is not playing yet, and picks the time back up when the sound returns.
+- A cover wanted at a size that has not been fetched now comes from a bigger one already in memory rather than a smaller one, so you see a scaled down cover instead of a blurry thumbnail while the real size arrives.
+- Add to Playlist has a filter box once you have enough playlists, and a scrollbar. The command palette and the Rockbox sync picker got the same scrollbar.
+- If your server cannot be reached, or the machine has no network at all, Home shows your downloads instead of waiting on a request that is not going to answer.
+- Sorting an artist's albums Oldest First puts a record tagged with only a year below the records of that year that carry a full date, the same rule both directions.
+- A stream whose first bytes are an AAC frame is read as AAC rather than MP3 in the format badge.
+- Add by address also tries the port and path a Sonos speaker serves its description on, alongside the ports it already tried.
+- Starting a radio station or emptying the queue tells your server the last track stopped, so its Now Playing does not keep a finished song on screen.
+
 ## 1.0.6
 
 - Now Playing has a Stop in its menu. It clears the queue and the current track, which is the thing pause does not do. Your desktop's own media keys and Stop button now do the same; before this they cleared what was coming up and kept playing.
