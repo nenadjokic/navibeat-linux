@@ -3,6 +3,10 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.8
+
+- Turning the equalizer on with every band at zero now sounds exactly like turning it off. It used to take 12 dB off the top no matter where the sliders sat, so switching it on made everything quieter and the sliders had nothing to do with it. The cause was a preamp of zero handed to the audio filter, which reads like "leave it alone" and is not: the filter sits a fixed amount below unity and the preamp is what climbs back out of it. Flat is flat again, and a boosted band really does boost. Reported by SilverHammerMax.
+
 ## 1.0.7
 
 - Seek somewhere in NaviBeat and your desktop's own media widget follows straight away. It used to sit on the old position until it happened to ask again, and some panels never ask.
