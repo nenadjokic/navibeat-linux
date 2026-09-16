@@ -3,6 +3,11 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.11
+
+- `navibeat --current-track` prints the playing track as one JSON line (title, artist, album, the artist, album and track ids, the length in seconds) and exits 3 when nothing plays; the same ids ride in the MPRIS metadata under `navibeat:` keys, so `playerctl metadata` shows them. For your own scripts and webhooks; NaviBeat stores no URL and no key.
+- The output device chosen in Settings stays chosen: unplugged, sound goes to the default device; plugged back in, the choice applies again.
+
 ## 1.0.10
 
 - The page for a connected Rockbox player draws again. Since 1.0.8 the list you pick artists, albums and playlists from could take the whole page down with a layout error the moment it opened; the list has a fixed height now and its scrollbar stays inside it. Reported on Discord from Arch, KDE on Wayland.
