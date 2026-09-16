@@ -3,6 +3,14 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.12
+
+- New Releases on Home: recent and upcoming albums, EPs and singles from the artists in your library, dated by MusicBrainz (90 days back, 180 ahead, newest first), covers from the Cover Art Archive, a tile opens the artist. A few artists are refreshed per launch, one request a second, and the shelf is hidden while empty.
+- Add to Playlist takes a selection: a click picks, Add sends the songs to every picked playlist, the list is grouped by playlist folders when that switch is on, and the duplicate question asks per playlist with Skip while more wait.
+- Show Bio on Artist Pages, a switch beside Show Top Songs: off, the About box is gone and the portrait grows.
+- A shuffled order carries one copy of a song (artist and title); shuffle off shows every copy again.
+- Custom headers for a proxy in front of the server go only to the address they were saved for: none to the home address, and downloads and covers carry them too.
+
 ## 1.0.11
 
 - `navibeat --current-track` prints the playing track as one JSON line (title, artist, album, the artist, album and track ids, the length in seconds) and exits 3 when nothing plays; the same ids ride in the MPRIS metadata under `navibeat:` keys, so `playerctl metadata` shows them. For your own scripts and webhooks; NaviBeat stores no URL and no key.
