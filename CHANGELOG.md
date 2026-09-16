@@ -3,6 +3,22 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.10
+
+- The page for a connected Rockbox player draws again. Since 1.0.8 the list you pick artists, albums and playlists from could take the whole page down with a layout error the moment it opened; the list has a fixed height now and its scrollbar stays inside it. Reported on Discord from Arch, KDE on Wayland.
+- Downloads wait for a busy server. A server that transcodes a few songs at a time answers the rest with "too many requests"; downloads now wait that out, a little longer each time, up to a minute, and use the wait the server asks for when it names one.
+- Navidrome 0.64.0 renames every song and playlist. Downloads, downloaded playlists and mirrored playlists are recognised under the new names, so nothing is fetched twice and nothing mirrored is removed.
+- Playlists can be grouped into folders on the desktop, the way the phone and the Mac already do it.
+- A new setting in Playback: tapping a song plays it alone, or plays it and queues the rest of the list behind it.
+- The output level is remembered between launches. Adding songs to a queue that has finished moves onto the first added song, and Next works again after a queue runs out. The lit output capsule closes the cover's panel. The Discover Mix tile says where its songs come from.
+
+## 1.0.9
+
+- Crossfade: one song fades out while the next fades in, over the length you pick in Settings, with no gap. Streamed songs fade too, from a complete copy the app keeps while a track plays. The fade ends the moment you press Stop, Pause or Skip, and stays out of the way while the sound goes to a Chromecast or the server's own jukebox.
+- The seek bar grows while you drag it: hold the progress bar and it thickens under the pointer, with a small capsule showing the time you are about to land on.
+- Stop at the end, in Settings under playback: finish this song and stop rather than rolling into the next one.
+- Date Added in the songs list sorts your whole library. A playlist can be pinned to the top of the list.
+
 ## 1.0.8
 
 - Turning the equalizer on with every band at zero now sounds exactly like turning it off. It used to take 12 dB off the top no matter where the sliders sat, so switching it on made everything quieter and the sliders had nothing to do with it. The cause was a preamp of zero handed to the audio filter, which reads like "leave it alone" and is not: the filter sits a fixed amount below unity and the preamp is what climbs back out of it. Flat is flat again, and a boosted band really does boost. Reported by SilverHammerMax.
