@@ -3,6 +3,16 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.13
+
+- Shuffle keeps every recording: two songs are copies only when artist, title and length agree, the length within five seconds, and songs with no artist or title tag are never folded into one.
+- Downloads survive the Navidrome 0.64 rescan: a downloaded song answers to its old and its new id, and one whose id changed beyond that is matched by title, album, artist, track number and length when its album or playlist is opened, and keeps its file.
+- Crossfade without a gap: the next song starts muted and in step, and the handover waits until it plays.
+- Sharper Now Playing cover: the original image on an unmetered connection, 1200 pixels on a metered one. The original stays in memory and is never written to the cover cache on disk.
+- Artist pages: the top songs are headed Popular, and Your most played lists the artist's songs you play most, five and ten with Show more.
+- Casting to UPnP speakers: the queue moves on only when the speaker stops near the end of the song, Repeat One holds, and the output line says Connected to until the speaker plays.
+- The full-window Now Playing closes when you go to another page, and Random Picks on Home has a refresh button.
+
 ## 1.0.12
 
 - New Releases on Home: recent and upcoming albums, EPs and singles from the artists in your library, dated by MusicBrainz (90 days back, 180 ahead, newest first), covers from the Cover Art Archive, a tile opens the artist. A few artists are refreshed per launch, one request a second, and the shelf is hidden while empty.
