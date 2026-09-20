@@ -3,6 +3,17 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.14
+
+- Drive NaviBeat from a script or a voice assistant: `navibeat --play-artist "Miles Davis"`, `--play-playlist`, and `--search` with `artist:`, `album:`, `genre:` and `year:` fields. A command reaches the copy already running, prints one JSON line, and answers with an exit code; with nothing running it starts NaviBeat and runs the command once it signs in. `navibeat --agent-skill` prints a skill file an assistant on your machine can read.
+- Show all results in the GNOME overview opens NaviBeat's own Search on what you typed.
+- Radio comes back by itself when the network does, so a stream that dropped in a lift or a car park starts again.
+- Songs is the whole library in a stable order, paged as you scroll.
+- Save your own equalizer curves under their own names, as many as you like, with the centre frequencies and Q saved beside the gains.
+- An option to open Now Playing when you press play, off by default.
+- New Releases says whether it is still checking your artists or found nothing in its window, instead of drawing nothing.
+- An oversized answer from a server is reported as an error instead of being read into memory whole.
+
 ## 1.0.13
 
 - Shuffle keeps every recording: two songs are copies only when artist, title and length agree, the length within five seconds, and songs with no artist or title tag are never folded into one.
