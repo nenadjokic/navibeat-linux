@@ -214,6 +214,46 @@ detection and `NO_COLOR` is honoured.
 
 ---
 
+## Drive it from a script, or from your assistant
+
+Every command here reaches the NaviBeat already running on your desktop, prints **one JSON line**,
+and exits with a code a script can branch on. Installed from apt, dnf or pacman the command is
+`navibeat`; with the AppImage it is the file itself.
+
+```bash
+navibeat --play-artist "Miles Davis"
+navibeat --play-playlist "Favorites" --shuffle
+navibeat --search 'artist:"Miles Davis" year:1960s'
+navibeat --current-track
+```
+
+`--search` takes fields: `artist:`, `album:`, `genre:` and `year:`, and a year can be a single one
+(`year:1965`), a range (`year:1960-1969`) or a decade (`year:1960s`). The whole query is **one
+argument**, so quote all of it.
+
+Exit codes are the contract: `0` done, `3` nothing matched, `4` more than one matched, in which case
+the candidates are listed and nothing plays, `5` not signed in or not reachable.
+
+**With no NaviBeat running, the command starts one and runs it once you are signed in, and what it
+starts is the window.** Put `--tui` with it and you get the terminal client instead, on the screen
+the command asked for:
+
+```bash
+navibeat --tui --search 'artist:"Miles Davis" year:1960s'
+navibeat -t --play-artist "Miles Davis" --shuffle
+```
+
+**`navibeat --agent-skill` prints a skill file in Markdown.** Save it where your assistant looks for
+skills and it has these commands, their fields and their exit codes, so it can drive NaviBeat on
+your machine without you writing the command line.
+
+`navibeat --cast-scan` lists the speakers and TVs on your network, and `navibeat --help` has the
+whole set.
+
+This one was asked for in [issue 20](../../issues/20).
+
+---
+
 ## Download
 
 Grab the latest **AppImage** for your machine from the [latest release](../../releases/latest):
