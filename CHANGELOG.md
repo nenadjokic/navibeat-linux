@@ -3,6 +3,15 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.15
+
+- Sign in through a reverse proxy that uses HTTP basic auth by putting the credentials in the address, `https://user:password@your-server`. They are sent as the header the scheme defines, on every request to that server, and the custom headers on the sign-in screen keep working as they always have.
+- A library that is fully downloaded still reads as downloaded after a Navidrome 0.64.0 upgrade. That release rewrites every song id, and how it rewrites one depends on how wide the old id was; both kinds are predicted now, so nothing has to be re-downloaded.
+- New Releases draws one row per album, whether it is credited to two artists in your library or to one artist your library spells two ways.
+- A row tapped in Search honours the setting that plays one song, which already worked in every other list.
+- `navibeat --help` says which interface a command starts: on its own it opens the window, and `--tui` beside it opens the terminal client on the screen you asked for. A query is one argument, and a stray word outside the quotes is refused with an exit code instead of dropped in silence.
+- The lyrics view stops resampling the clock while playback is paused.
+
 ## 1.0.14
 
 - Drive NaviBeat from a script or a voice assistant: `navibeat --play-artist "Miles Davis"`, `--play-playlist`, and `--search` with `artist:`, `album:`, `genre:` and `year:` fields. A command reaches the copy already running, prints one JSON line, and answers with an exit code; with nothing running it starts NaviBeat and runs the command once it signs in. `navibeat --agent-skill` prints a skill file an assistant on your machine can read.
