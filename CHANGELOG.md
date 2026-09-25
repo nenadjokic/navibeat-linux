@@ -3,6 +3,16 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.21
+
+- Ready for Navidrome's sign-in change. Navidrome is turning token sign-in off by default. When a server refuses it, NaviBeat switches to the password form on its own, remembers that for the server, and keeps playing. A refused stream or download is reported as a failure and never saved as a track.
+- Sign in with an API key, offered in the window and in the terminal client when your server lists API key support.
+- Smart playlists show as tiles above the playlist grid, listed by name.
+- A release tagged both album and single, or live, is filed under that one type on the artist page.
+- Stop is the first item in the playing bar's ... menu.
+- The Filled artist page runs edge to edge from the top of the window.
+- The NaviBeat Mix shelf on Home tries again by itself when loading fails.
+
 ## 1.0.20
 
 - The mini player's way back to the main window shows on any cover, white ones included.
