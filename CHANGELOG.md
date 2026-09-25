@@ -3,6 +3,14 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.19
+
+- A new equalizer: a response graph you can drag, a filter type per band (peaking, low shelf, high shelf), and AutoEQ files that keep their shelves and arrive ordered by frequency.
+- A track stuck at its very end moves on by itself, and a stream that freezes mid-song restarts from where it stopped.
+- Downloaded playlists keep the server's order, and a mirrored playlist is listed offline.
+- An Owner menu on the Playlists screen: All, Mine, or one person's playlists.
+- A rating the server refuses goes back to what it was.
+
 ## 1.0.18
 
 - A tighter Home: each shelf sits 16 points above the next instead of 32, New Releases included.
