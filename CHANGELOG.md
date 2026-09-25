@@ -3,6 +3,13 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.20
+
+- The mini player's way back to the main window shows on any cover, white ones included.
+- A large Interface size fits your screen, so Settings stays in reach.
+- Grids follow the Mac's sizes, and their captions grow with Larger artwork.
+- The panel's cover art tries again when a download fails.
+
 ## 1.0.19
 
 - A new equalizer: a response graph you can drag, a filter type per band (peaking, low shelf, high shelf), and AutoEQ files that keep their shelves and arrive ordered by frequency.
