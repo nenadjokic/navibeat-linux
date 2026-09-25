@@ -3,6 +3,10 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.18
+
+- A tighter Home: each shelf sits 16 points above the next instead of 32, New Releases included.
+
 ## 1.0.17
 
 - Choose where downloads live in Settings, Downloads. The files already there move with it, and a folder on a drive that is not plugged in keeps everything: its tracks show as unavailable until the drive is back.
