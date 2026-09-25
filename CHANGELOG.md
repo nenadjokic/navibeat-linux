@@ -3,6 +3,17 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.16
+
+- A desktop scaled to 125, 150 or 175 percent gets exactly that size, whether it comes from the desktop, `NAVIBEAT_UI_SCALE` or Interface size in Settings.
+- Look & Feel in Settings, Appearance: Classic, or Artwork colour with a Colour intensity slider. It combines freely with Squared or Filled artwork, and Filled pages carry the cover edge to edge with the name on it.
+- Larger artwork in grids, and a switch to turn off the grouping by release type on artist pages.
+- Select on album, playlist and All Songs pages, then Play, Queue, add to a playlist or Download the picks. A picked song dragged onto a RockBox player sends the whole selection.
+- Stop in the Controls list, with Ctrl+. as the shortcut.
+- The last queue comes back at launch, paused, and a track the server cannot play is skipped with one notice.
+- UPnP speakers get the next track in advance. The equalizer imports AutoEQ files, copies a preset as text and takes typed values.
+- Animated cover art in Now Playing, a solid page under Frosted Glass, and a radio stream that reopens once after it drops.
+
 ## 1.0.15
 
 - Sign in through a reverse proxy that uses HTTP basic auth by putting the credentials in the address, `https://user:password@your-server`. They are sent as the header the scheme defines, on every request to that server, and the custom headers on the sign-in screen keep working as they always have.
