@@ -3,6 +3,13 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.17
+
+- Choose where downloads live in Settings, Downloads. The files already there move with it, and a folder on a drive that is not plugged in keeps everything: its tracks show as unavailable until the drive is back.
+- Ratings given while the server is away are kept and sent when it answers again, also after a restart.
+- Find on your server on a similar artist that was not in your library when the shelf loaded.
+- The similar-artists shelf opens Last.fm and ListenBrainz for the tile you clicked.
+
 ## 1.0.16
 
 - A desktop scaled to 125, 150 or 175 percent gets exactly that size, whether it comes from the desktop, `NAVIBEAT_UI_SCALE` or Interface size in Settings.
