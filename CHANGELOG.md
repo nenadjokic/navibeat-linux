@@ -3,6 +3,15 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.22
+
+- Find other recordings. On a classical album, the magnifying glass beside a work lists every recording of that work in your library.
+- Synced lyrics keep their line breaks when a line becomes the active one, in Now Playing, the sidebar and the mini player.
+- Songs sorted by Date Added list every song, also the ones without an album tag.
+- Reverse Order in the track sort menu, for playlists, Songs and Favourites.
+- Behind a proxy that needs custom headers, the panel's cover art and RockBox transfers carry them too.
+- Play Next confirms with "will play next".
+
 ## 1.0.21
 
 - Ready for Navidrome's sign-in change. Navidrome is turning token sign-in off by default. When a server refuses it, NaviBeat switches to the password form on its own, remembers that for the server, and keeps playing. A refused stream or download is reported as a failure and never saved as a track.
