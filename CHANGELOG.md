@@ -3,6 +3,12 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.24
+
+- Play Next and Add to Queue on every song list. Right-click a song in search results, on an artist's Popular and most played, in All Songs, Appears On, a genre or a smart playlist, and both are there, as on an album.
+- Recently Released has Albums and Singles. Singles lists the newest one- and two-track releases as songs, and an Unplayed-only switch filters either half and is remembered.
+- With Larger artwork in grids on, album and artist tiles load a sharper cover.
+
 ## 1.0.23
 
 - Dragging the window no longer freezes KDE Plasma on X11. Moving NaviBeat by its title bar, or dragging it out of maximized, left the whole desktop unresponsive; the pointer is now handed back to the window manager cleanly.
