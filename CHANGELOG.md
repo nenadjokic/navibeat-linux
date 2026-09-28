@@ -3,6 +3,14 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.23
+
+- Dragging the window no longer freezes KDE Plasma on X11. Moving NaviBeat by its title bar, or dragging it out of maximized, left the whole desktop unresponsive; the pointer is now handed back to the window manager cleanly.
+- Crossfades keep the sound going at the swap. The incoming track starts a moment early, muted, so there's no short gap when it takes over.
+- Get Info lists every genre a song has, and genre rules in smart playlists and exclusions match any of them.
+- An artist whose only release is a single or an EP gets that heading instead of "Albums".
+- Pair the same account under a new server address and NaviBeat offers to bring over which playlists you mirror offline and which downloads belong to them.
+
 ## 1.0.22
 
 - Find other recordings. On a classical album, the magnifying glass beside a work lists every recording of that work in your library.
