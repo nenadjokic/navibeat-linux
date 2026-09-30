@@ -3,6 +3,13 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.25
+
+- Going back to the start of a song plays it from the start. On Opus streams, a jump back used to land several seconds ahead; every seek now lands where you asked.
+- The output device you pick in Settings is the one you hear. It was ignored before and the sound went to the default output.
+- Synced lyrics follow the song while it plays on the jukebox or a speaker.
+- An album credited to many artists shows whole names: they wrap on the album page and fit on one line on the tile.
+
 ## 1.0.24
 
 - Play Next and Add to Queue on every song list. Right-click a song in search results, on an artist's Popular and most played, in All Songs, Appears On, a genre or a smart playlist, and both are there, as on an album.
