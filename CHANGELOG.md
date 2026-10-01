@@ -3,6 +3,24 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.26
+
+- Favourites work offline. A heart you give with no server, or in Offline Mode, is kept and sent when the server answers again. Ctrl+L also works with the mini player in front, and `navibeat --toggle-favorite` hearts the playing song from a script.
+- Radio shows the song's cover. When a station names the song it plays, you see that song's cover from your library, or from Last.fm when it is connected. The station logo stays when neither knows it. The setting is Track artwork on radio.
+- Sleep timer: End of Track. Pause when the song that is playing ends.
+- Rockbox sync: choose the folders on your player. Artist / Album, the same folders as on your server, or your own template such as `%artist%/%year% - %album%/%track% %title%`. A synced player moves its files rather than copying them again.
+- Samplers sync into one folder under their album artist.
+- A player synced from the same server under another address (LAN, a tunnel, Tailscale) is recognised as yours.
+- Arrows on the Home shelves for a mouse with no horizontal scroll.
+- Composer and lyricist pages list the songs they are credited on, and an artist page no longer picks up an album through a similar name in somebody else's credits.
+- The playing song's row shows moving bars, without costing the processor.
+- Playlist rows drag to your Rockbox player and to a playlist in the sidebar.
+- The sidebar button always does what it says, also after a narrow window hid the sidebar.
+- After a failed sign-in, Copy details puts what happened on the clipboard, with no password or key in it.
+- Home leads with the album you were last listening to.
+- The offline player shows the cover at full size.
+- Radio stations show their logo on the Now Playing card and in the mini player.
+
 ## 1.0.25
 
 - Going back to the start of a song plays it from the start. On Opus streams, a jump back used to land several seconds ahead; every seek now lands where you asked.
