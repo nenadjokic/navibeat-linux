@@ -3,6 +3,17 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.27
+
+- Recently Played on Home. A new shelf right after Most Played, with the albums you played last, the same list as the Recently Played page. Its title opens that page, and you can hide or move it under Customise Home.
+- Equalizer from Now Playing. The Now Playing menu opens the equalizer in a sheet over the player, so you no longer leave for Settings.
+- Radio finds the song's cover on more stations. A station that sends "Artist - Title" as one line is now read as artist and title, so the song's cover and the artist line show up.
+- The Add to Playlist dialog always shows its Add button.
+- A playlist inside a folder is titled by its own name on its page, and a NaviBeat Mix playlist shows its Mix cover.
+- In the terminal client, a long hyphenated word in the lyrics wraps after a hyphen instead of being cut.
+- The jump buttons show their seconds, 15 included, and a jump forward stops just short of the end.
+- More From Nenad Jokic opens as a sheet with a page per app.
+
 ## 1.0.26
 
 - Favourites work offline. A heart you give with no server, or in Offline Mode, is kept and sent when the server answers again. Ctrl+L also works with the mini player in front, and `navibeat --toggle-favorite` hearts the playing song from a script.
