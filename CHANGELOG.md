@@ -3,6 +3,19 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.28
+
+- Songs as a table. A List / Table switch on Songs. The table has Title, Artist, Album and Duration; click a header to sort, double click to play from that row, right click for the song menu.
+- Show on MusicBrainz. Albums, artists and songs that carry a MusicBrainz ID open their MusicBrainz page from the menu, whether or not ListenBrainz is connected.
+- Letter headings in Artists. A, B, C headings over the artists when they are sorted by name.
+- Add to Playlist works offline. Songs added without a connection wait and go to the server when it answers, and a new playlist can be made offline too. The three playlists you added to last sit at the top of the list. If the server refuses, the dialog stays open and says which playlist and why.
+- Now Playing opens where you left it. Lyrics or Up Next, as you had it last, also after a relaunch.
+- After you play something, Recently Played, Most Played and the top of Home show it when you come back to Home, and Favorited shows an album you just hearted.
+- Home holds each section's place while it first loads, so nothing jumps.
+- Lyrics without timestamps get the pronunciation line too.
+- Text on album and artist pages tinted by the cover picks light or dark from the part of the cover you see.
+- The Add to Playlist dialog lists only playlists you can edit.
+
 ## 1.0.27
 
 - Recently Played on Home. A new shelf right after Most Played, with the albums you played last, the same list as the Recently Played page. Its title opens that page, and you can hide or move it under Customise Home.
