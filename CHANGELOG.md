@@ -3,6 +3,15 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.29
+
+- Closing NaviBeat keeps the music playing. The close button, Ctrl+W and the window manager's close leave the music and the controls running. Click the tray icon or open NaviBeat again to get it back. Quit ends it.
+- Show tray icon in Settings, Appearance, and under it Start minimized to tray, which opens NaviBeat straight in the tray.
+- Stop while casting to a speaker pauses the speaker at once, and a pause you press is no longer undone a moment later.
+- After a Stop, Random Album Radio stays stopped instead of starting a new album.
+- In the mini player, the lyric lines around the one being sung are a little larger, as on the Mac.
+- A search started from your desktop shows NaviBeat even when it was closed to the tray.
+
 ## 1.0.28
 
 - Songs as a table. A List / Table switch on Songs. The table has Title, Artist, Album and Duration; click a header to sort, double click to play from that row, right click for the song menu.
