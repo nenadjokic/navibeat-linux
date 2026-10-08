@@ -3,6 +3,30 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.30
+
+- Servers behind your own certificate authority: NaviBeat trusts the certificates your system trusts. Add your CA to the system store once and it connects.
+- Ctrl and Shift click select several songs in any song list, with Play Next, Add to Queue, Add to Playlist, Rate and Send to RockBox for the whole selection.
+- Rate a selection at once, from the Select bar or the right-click menu.
+- Fade on pause and play, in Settings, off by default.
+- Home tiles in Large or Compact, and the Lyrics and queue panel as a floating card or a docked column.
+- Radio Now Playing looks like song Now Playing: the same backdrop and cover, the announced song's lyrics, Previous and Next Station.
+- Genre pages carry the genre into the albums and artists you open from them.
+- Downloaded playlists follow the server, and a library-wide download lists its playlists offline.
+- AutoMix tries more sources and keeps playing at the end of the queue.
+- A stream that never starts is retried once, then skipped.
+- Starring a song loves it on Last.fm and ListenBrainz when you have connected them, plus a daily sync of your favourites.
+- The setup wizard has every page of the Mac's, Return presses Continue.
+- Share on a New Releases tile copies the release and its MusicBrainz link.
+- When the desktop places the window partly off the screen (seen on COSMIC), NaviBeat now moves it back on.
+- The album and Recently Added filter box no longer empties while the list stays filtered.
+- DLNA and UPnP speakers (WiiM and others): several causes of a song restarting or repeating are fixed.
+- Add to Playlist no longer offers playlists the server will not let you change.
+- Artist Play queues every album once and retries one that fails to load.
+- Plays made while the server was away are kept and sent later.
+- A song title with a comma inside brackets no longer splits an album into sections.
+- MPRIS shows the station picture during radio.
+
 ## 1.0.29
 
 - Closing NaviBeat keeps the music playing. The close button, Ctrl+W and the window manager's close leave the music and the controls running. Click the tray icon or open NaviBeat again to get it back. Quit ends it.
