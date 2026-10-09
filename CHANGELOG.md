@@ -3,6 +3,13 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.31
+
+- On a Filled album or artist page, the album and artist menus sit on the header, and the album menu has Show on MusicBrainz.
+- The playhead no longer jumps ahead after a seek or a stream recovery. Scrobbles, MPRIS and the scrubbers read the same corrected position.
+- A ListenBrainz love sends the song's own MusicBrainz recording when the server has it, instead of a search by name.
+- If your starred songs cannot be read, the favourites sync stops for that pass instead of starring a guessed copy.
+
 ## 1.0.30
 
 - Servers behind your own certificate authority: NaviBeat trusts the certificates your system trusts. Add your CA to the system store once and it connects.
