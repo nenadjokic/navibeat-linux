@@ -3,6 +3,20 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.34
+
+**Popular songs on album pages**
+
+A flame in front of the track number marks up to three popular songs on each album. Choose where popularity comes from in Settings, Artist Display, Popular songs: your server (the default), Last.fm, ListenBrainz, or off. When a source has no answer, the album simply shows no flames.
+
+**Also in this release**
+
+- Song titles: the version part at the end of a title, such as (Remastered 2009) or - Radio Edit, is drawn lighter and a little smaller. Settings, Appearance, Dim version text in song titles turns it off
+- Now Playing: a song on a compilation can show the cover of its own single or album, from Last.fm. Settings, Now Playing, Song cover for compilation tracks, off by default
+- Home Layout says why Because You Listened is hidden when it has nothing to show
+- Mini player: Volume opens a slider above the button
+- The log says why a crossfade did not start, and why a local copy for it was not made
+
 ## 1.0.33
 
 **Library Doctor**
