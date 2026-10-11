@@ -3,6 +3,21 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.33
+
+**Library Doctor**
+
+- Upgrade to Word-by-Word, on the Lyrics card: asks your server for word-timed lyrics for songs that only have line lyrics. NaviBeat writes nothing; a server lyrics plugin does the fetching
+- Library Doctor Options: Show stethoscope on album covers, off by default. The note on album pages keeps its own switch
+- Partial albums no longer get a stethoscope on their cover
+
+**Also in this release**
+
+- Continue here starts the song at the position it was taken over from, and reports it to the server in the same order as the other NaviBeat apps
+- Word-by-word lyrics: the line becoming active grows smoothly instead of jumping, and a tap on it seeks, like any other line
+- Album menu: Play Next and Add to Queue show only for an album with songs
+- Settings, Scrobbling: the Last.fm row looks and works like the ListenBrainz row
+
 ## 1.0.32
 
 **New: Library Doctor.**
