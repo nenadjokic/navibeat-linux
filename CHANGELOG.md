@@ -3,6 +3,38 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.32
+
+**New: Library Doctor.**
+
+A new sidebar workspace that finds the tag problems that make Navidrome show one record as several albums, and fixes them in your files. Free on Linux.
+
+- Checks for split albums, compilations that are not marked, track numbers, covers, damaged tag text, duplicate imports and partial albums, from your server alone
+- Choose the folder that holds your music (for example the mounted NAS share) and NaviBeat confirms each finding against the real files before it offers a fix
+- Every fix goes through a review sheet, is journaled before a file is touched, and can be undone from Write History
+- Look up an album on musicbrainz.org, find missing covers online, and fill in missing lyrics as .lrc files
+- A count in the sidebar, a note on affected album pages and a badge on the album grid
+
+**Also in this release:**
+
+- Now Playing: the blurred background fades to the next song's cover instead of cutting
+- Settings, Lyrics: Blur distant lines, on by default
+- Text size: Bigger Text, Smaller Text and Actual Size with Ctrl +, Ctrl - and Ctrl 0, in the View menu and the command palette
+- Manage Playlists: one song's playlists in one dialog, checked where it already is, to add it or take it out
+- Album Versions, and Shuffle Mix can choose its first song
+- Downloads, Artists groups by album artist; removing an artist keeps songs a downloaded playlist still lists
+- A playlist you have open refreshes its download state when songs are added to it
+- Home: Your Playlists shows a playlist in a folder by its own name
+- Names that start with a symbol or an emoji sort before numbers and letters
+- ListenBrainz: songs you starred on your server are loved on ListenBrainz too, at Sync now and once a day
+- Chinese and Japanese karaoke lines sweep character by character
+- A radio song that only exists on a compilation gets its cover
+- COSMIC and other Wayland desktops: the dock shows the NaviBeat icon, and the window opens centred at fractional scaling
+- An artist without a Last.fm biography no longer shows a raw link
+- A click next to the "..." in the player bar no longer opens the artist page
+- A right-click menu stays put while downloads or ratings update
+- Buttons drawn in your accent colour keep their icon readable with very dark or very light accents
+
 ## 1.0.31
 
 - On a Filled album or artist page, the album and artist menus sit on the header, and the album menu has Show on MusicBrainz.
