@@ -3,6 +3,21 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.36
+
+**Servers behind a client certificate (mTLS)**
+
+A server that asks for a client certificate now plays, not only browses. NaviBeat hands the stream to its player through a small relay on your own computer (127.0.0.1) that presents your certificate, so playback, seeking and crossfade work behind mTLS and behind proxies that need custom headers. Downloads, covers and casting present the certificate too, and only to your server.
+
+**Also in this release**
+
+- Refresh Lyrics, in the song menus and at the end of the lyrics panel, asks your server again past the saved copy
+- Listening Stats open with your saved numbers at once and add Most played on your server, and work without Last.fm too
+- No crossfade between songs of one album played in album order
+- Now Playing on This Server, a Home section you can turn on in Home Layout
+- Album names dim their version part, like song titles
+- After a launch with the server out of reach, the queue comes back from your downloads
+
 ## 1.0.35
 
 **Tray icon on Wayland desktops**
