@@ -3,6 +3,18 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.35
+
+**Tray icon on Wayland desktops**
+
+On desktops whose tray speaks StatusNotifierItem (KDE Plasma, Waybar, Noctalia, XFCE and others), NaviBeat now registers its own tray icon with its name, logo and menu. A click on the icon or Open NaviBeat brings the window back. Desktops without one keep the classic tray icon.
+
+**Also in this release**
+
+- Recently Added, Recently Played and Recently Released ask your server again each time you open them, so an album you just added shows up without a restart
+- Smart playlists: a rule on a playlist that can't be read names that playlist, with Retry, instead of showing an empty result
+- A downloaded song whose clock runs past its end moves on to the next song
+
 ## 1.0.34
 
 **Popular songs on album pages**
