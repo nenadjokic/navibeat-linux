@@ -3,6 +3,12 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.37
+
+**Large offline libraries**
+
+Offline search, offline Home and downloaded collections stay quick with tens of thousands of downloaded songs. The search runs off the window's thread, so typing never waits for it, and a newer keystroke replaces the older search. Offline Home works out every playlist in one pass over your downloads instead of one pass per playlist.
+
 ## 1.0.36
 
 **Servers behind a client certificate (mTLS)**
