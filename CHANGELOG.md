@@ -3,6 +3,16 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.38
+
+**Airsonic Advanced**
+
+A server that only speaks an older Subsonic REST version, such as Airsonic Advanced (1.15.0), now pairs. When the server answers that it needs an older version, NaviBeat asks once more in that version and remembers it for that server, so playback, covers and downloads use it too. The message for a server that is too old now says to update the server, not NaviBeat.
+
+**Shuffle**
+
+A shuffle never starts on the song that is already playing, and does not put it back in the new queue: Shuffle Mix on Home, Shuffle on the Songs list and genre shuffle. Shuffle on the Songs list now leaves out what you excluded from shuffle in Settings, as the other shuffles already did.
+
 ## 1.0.37
 
 **Large offline libraries**
