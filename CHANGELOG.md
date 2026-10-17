@@ -3,6 +3,16 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.39
+
+**Radio Stations on Home**
+
+Your server's internet radio stations get their own row on Home, right after Your Playlists and before Made for You. Click a tile to start the station, or click the row's title to open Radios. You can move the row or turn it off in Customise Home, like any other section.
+
+**Keyboard focus**
+
+At launch, after you leave Search and after a dialog closes, the keyboard focus goes back to the sidebar instead of being lost. Search still puts the cursor in its field, and a text field you are typing in keeps its focus.
+
 ## 1.0.38
 
 **Airsonic Advanced**
