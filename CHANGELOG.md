@@ -3,6 +3,28 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.40
+
+**Play the Artist's Next Album**
+
+A new switch in Settings, Playback, off by default. When the last song of an album played in order starts, the same artist's next album by release date is queued right after it. On the artist's last album nothing is added, and AutoMix carries on if it is on.
+
+**Radio on a network speaker**
+
+A radio station now plays on a UPnP / DLNA speaker picked in Output, the same way a song does.
+
+**Pinned Playlists and My Playlist Rows**
+
+Pin playlists so they come first, with their own row on Home, and add your own Home rows built from playlist name rules.
+
+**Offline**
+
+When the server is not answering, Search looks in your downloads instead, and searches the server again once it is back. Quick Play on the offline Home plays from your downloads.
+
+**Library Doctor**
+
+A multi-disc album numbered straight through (1 to 24 across two discs) is no longer listed as partial.
+
 ## 1.0.39
 
 **Radio Stations on Home**
