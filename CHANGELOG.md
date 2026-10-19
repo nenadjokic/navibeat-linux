@@ -3,6 +3,24 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.41
+
+**Because You Listened asks the right source**
+
+On a server that runs AudioMuse the shelf comes from your server, otherwise from Last.fm, and its badge names which one answered. Thirty songs.
+
+**My Playlist Rows by owner**
+
+A Home row can fill from your playlists or another user's, optionally public ones only, and show them In order or Shuffle. The row editor says that a row needs a name before Save turns on.
+
+**Setup and pairing**
+
+The setup wizard's last cards open what they describe: Direct Playback and Lyrics go straight to their Settings section. When the server's certificate is not trusted, the pairing screen says so and how to fix it. What's New shows the five newest features.
+
+**Fixed**
+
+A heart tapped while favourites were still loading stays set. The last control on every Settings screen, Save changes on Server addresses included, stays above the playing bar. A server without jukebox mode is asked about it once per session.
+
 ## 1.0.40
 
 **Play the Artist's Next Album**
