@@ -3,6 +3,20 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.42
+
+**Your own plays beside the listener count**
+
+Signed in to Last.fm, Now Playing, the bar and the mini player show how often you have played the song, as "▶ 12 YOU" beside the Last.fm listener count. The terminal client shows it on its listeners line.
+
+**Square covers in the system player**
+
+The desktop media panel (MPRIS) gets the song's cover cut to the same centred square the app shows, unless Fit non-square artwork is on. Station pictures keep their shape.
+
+**Setup and playlists**
+
+The setup wizard's first page names every platform NaviBeat is on. Add to Playlist and Manage Playlists show a spinner while they save, keep the list still until it is done, and say there are no playlists only after the server has answered.
+
 ## 1.0.41
 
 **Because You Listened asks the right source**
