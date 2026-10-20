@@ -511,6 +511,16 @@ NaviBeat for Linux is free, with no ads, no tracking and no subscription. If it 
 
 NaviBeat talks to your server and to nobody else. There are no analytics and no trackers in the app. Full policy at [navibeat.app/privacy](https://navibeat.app/privacy.html).
 
+## Star History
+
+<a href="https://www.star-history.com/#nenadjokic/navibeat-linux&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=nenadjokic/navibeat-linux&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=nenadjokic/navibeat-linux&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=nenadjokic/navibeat-linux&type=Date" />
+  </picture>
+</a>
+
 ## License
 
 NaviBeat for Linux is **free to use, but it is not open source.** It is proprietary software, and this repository holds only the release binaries and documentation, never the source. You may download and use it at no cost; you may not copy, redistribute, modify, reverse engineer, or reuse it. See [LICENSE](LICENSE) for the full terms.
