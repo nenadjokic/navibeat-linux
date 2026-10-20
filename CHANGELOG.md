@@ -3,6 +3,16 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.43
+
+**Synced lyrics ripple into place**
+
+When the next line becomes active, the lines below it follow one after another instead of moving as one block. Fast lyric scrolling shortens the ripple, and Instant or reduced motion turns it off.
+
+**Composers in your downloads**
+
+Browsing only what is on this computer, Composers lists the people credited as composers on your downloaded songs, not every downloaded artist. Downloads made before this update get their credits filled in once, the next time the server is reachable. Until then the list says why it is empty. The Composers row in the sidebar no longer goes missing on servers whose artist list has no composers in it.
+
 ## 1.0.42
 
 **Your own plays beside the listener count**
