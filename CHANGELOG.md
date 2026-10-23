@@ -3,6 +3,29 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.44
+
+**ReplayGain from your server's tags**
+
+Track and album gain come from the values your server reports and are applied on the equalizer preamp, live, including across a crossfade. Radio and Direct Playback stay at unity.
+
+**Genres follow the library picker**
+
+With one or more libraries selected, the genre list and genre songs come from those libraries only. The picker itself now works in Offline Mode, and new downloads remember which library they came from.
+
+**On the artist page**
+
+Popular shows five songs, with Show more for ten, and a row plays the shown songs from the one you picked. On Your Playlists lists your playlists that hold this artist's songs.
+
+**More**
+
+- A Similar Tracks on Now Playing switch in Last.fm settings.
+- Streaming catalogue items (octo-fiesta) carry a service pill and get Save to Library first in their menu.
+- A downloaded playlist has the sort menu of its online page.
+- When a song's own cover is a still, Now Playing also tries its album's cover for an animation.
+- A track the player cannot open is tried once as MP3 320 before it is skipped.
+- A radio station on plain http opens one connection, similar shelves share one Last.fm request, Similar Albums ranks ties the same way every visit, and casting to upmpdcli follows the speaker onto the next track.
+
 ## 1.0.43
 
 **Synced lyrics ripple into place**
