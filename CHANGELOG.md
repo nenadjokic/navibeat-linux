@@ -3,6 +3,28 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.45
+
+**Quality on album and playlist rows**
+
+Hi-Res, Lossless and High tracks get a small tier mark beside the duration on album and playlist pages. "Show quality in song lists" in Settings turns it off.
+
+**Similar Artists on the album page**
+
+Seeded from the album's artist.
+
+**Long artist credits on Now Playing**
+
+A track with several artists shows every name instead of cutting the second one short.
+
+**Hearts that could not be sent are sent again**
+
+A heart kept while the server was out of reach is sent again on its own a few times over the next minutes.
+
+**Library Doctor and streaming catalogues**
+
+Songs that a proxy such as octo-fiesta merges into an album from a streaming service are left out, so Check Files reports only the files in your library.
+
 ## 1.0.44
 
 **ReplayGain from your server's tags**
