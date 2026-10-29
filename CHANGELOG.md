@@ -3,6 +3,40 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.46
+
+**Control another NaviBeat on your network**
+
+The output picker has a "Play on" list with every NaviBeat that is open or playing on this network. Pick one and this window becomes its remote. The Continue card gets a Control button, and a thin "Playing on" strip shows which device you are driving.
+
+**Keep library on this device**
+
+A switch in Settings keeps a copy of your library on this computer, so a large library browses from disk. Offline, the whole library stays browsable and only the songs on this computer play.
+
+**Add Account on This Server**
+
+A second user on the same server, each with their own queue.
+
+**Share Settings**
+
+Settings > About > Share Settings makes a link and a QR code with your setup. Paste a navibeat://settings link to take someone else's.
+
+**Lyrics**
+
+TTML lyrics with several singers place each singer's lines on their own side. Reading (kana) and Furigana for Japanese lyrics, with the dictionary (13 MB) downloaded the first time it is needed. Auto lyrics style fills word by word when the lyric is word-timed and lights the whole line when it is not.
+
+**Quality badge and play count**
+
+Detailed shows the format and numbers, Simple shows Lossless or Hi-Res only. "Show my play count" turns your own play count beside the listener count on or off.
+
+**Playlists and radio**
+
+A filter field on the playlist page. The Owner choice holds on every list of your playlists. Downloaded playlists keep repeated songs. Radio Stations show as a list or a grid, station artwork fills the cover, and the tray shows the station that is playing.
+
+**Smaller things**
+
+Resuming a transcoded song starts in the right place when the server answers with the whole file. Long durations no longer wrap, and the record label carries a building symbol.
+
 ## 1.0.45
 
 **Quality on album and playlist rows**
