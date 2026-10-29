@@ -35,7 +35,7 @@ A filter field on the playlist page. The Owner choice holds on every list of you
 
 **Smaller things**
 
-Resuming a transcoded song starts in the right place when the server answers with the whole file. Long durations no longer wrap, and the record label carries a building symbol.
+A song resumed partway plays from that point even when the server sends the whole file. Long durations no longer wrap, and the record label carries a building symbol.
 
 ## 1.0.45
 
