@@ -3,6 +3,28 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.47
+
+**Connect: every device that is playing, on one Continue card**
+
+When music plays on more than one other NaviBeat, the Continue card lists each device on its own row, each with Continue here and Control. Three rows show at once, and "+N more" opens the rest in place.
+
+**Classic Subsonic servers**
+
+On a Subsonic 6.1.6 server, Songs lists the whole library, Keep library on this device syncs it, a partial word finds songs in search, and the saved play queue comes back so Continue appears.
+
+**AutoMix and Repeat**
+
+With Repeat on, AutoMix steps aside, so the queue you repeat stays the queue you picked. AutoMix has its own switch in Settings, under Playback, and it is remembered when you quit and open the app again.
+
+**Covers**
+
+Covers load when several views ask for the same one at once: one request per cover and size, and an empty answer from the server is asked for once more.
+
+**Library selection**
+
+Albums, artists, genres, composers, songs, favourites and Home reload once when you pick another library, and an answer for the old one is dropped.
+
 ## 1.0.46
 
 **Control another NaviBeat on your network**
