@@ -3,6 +3,28 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.48
+
+**Downloads keep their quality details**
+
+A downloaded song keeps its bit rate, bit depth, sample rate, format and every credited artist. Songs downloaded with an earlier version get them filled in once from the server.
+
+**Downloads are named after their real audio format**
+
+Also on servers that report a suffix such as Remote.
+
+**Lyrics with several singers**
+
+The lead voice (v1) always sings on the left, whoever starts, and group lines sit in the middle.
+
+**Paging ends on a page that brings nothing new**
+
+Keep library on this device, Songs and the library's playing time finish on servers that answer every page with the same albums.
+
+**Every playback start prints a `[PLAY_ORIGIN]` line**
+
+It names what started it: the app, MPRIS, Connect, Continue here, Send to or the control bus.
+
 ## 1.0.47
 
 **Connect: every device that is playing, on one Continue card**
