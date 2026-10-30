@@ -7,7 +7,7 @@ Every release attaches a fresh AppImage. Newest first. Each version's full note 
 
 **A queue fill stays with the account it started under**
 
-AutoMix, the next album, Random Album Radio, Instant Mix, artist radio and the queue restored at launch each fetch their songs first. If you sign out, switch accounts or clear Up Next while that fetch is out, its songs are dropped instead of landing in the new queue.
+AutoMix, the next album, Random Album Radio, Instant Mix, artist radio and the queue restored at launch each fetch their songs first. If you sign out or switch accounts while that fetch is out, its songs are dropped instead of landing in the new queue. Clearing Up Next also ends an AutoMix, next album or launch restore fetch that is still out.
 
 ## 1.0.50
 
