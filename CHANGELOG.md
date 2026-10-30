@@ -3,6 +3,12 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.50
+
+**Every play of a song counts as a listen**
+
+A song on Repeat One scrobbles each time round, and so does a song started again with Previous or rewound into its first five seconds. Pausing and resuming inside one play still counts once.
+
 ## 1.0.49
 
 **One computer, one Now Playing row on Navidrome**
