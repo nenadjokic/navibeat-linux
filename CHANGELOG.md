@@ -3,6 +3,12 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.51
+
+**A queue fill stays with the account it started under**
+
+AutoMix, the next album, Random Album Radio, Instant Mix, artist radio and the queue restored at launch each fetch their songs first. If you sign out, switch accounts or clear Up Next while that fetch is out, its songs are dropped instead of landing in the new queue.
+
 ## 1.0.50
 
 **Every play of a song counts as a listen**
