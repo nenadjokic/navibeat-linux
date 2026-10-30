@@ -3,6 +3,20 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.49
+
+**One computer, one Now Playing row on Navidrome**
+
+NaviBeat sends the same client id with every scrobble and playback report, so the server lists this computer once. The Continue card shows one row per device.
+
+**Quitting tells the server playback stopped**
+
+Quit from the tray, Ctrl+Q, MPRIS Quit or a logout reports the stop. Closing the window while music plays on in the tray keeps playing.
+
+**Downloaded albums show their cover in the MPRIS panel offline**
+
+Albums downloaded with an earlier version get the missing cover size filled in once, on Wi-Fi or a wired network.
+
 ## 1.0.48
 
 **Downloads keep their quality details**
