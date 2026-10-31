@@ -3,6 +3,14 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.55
+
+**Play from Playlist, Add to Playlist in more places, genre tree sort**
+
+- **Play from Playlist.** Right-click a song and pick Play from Playlist, right after Add to Playlist. NaviBeat lists the playlists that hold the song and plays the one you choose from that song onward. It is in the song tables, the Up Next panel and the queue rows of the mini player.
+- **Add to Playlist** is on the Favorites rows and on the mini player queue rows.
+- **Genre tree follows the sort.** With the tree on, the sort you pick, Alphabetical or Most songs, orders every level of the tree.
+
 ## 1.0.54
 
 **Text fields set up for screen readers, client certificates, Offline Library**
