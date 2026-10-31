@@ -3,6 +3,13 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.53
+
+**Library Doctor shows the covers before it writes them**
+
+- **Library Doctor shows the covers before it writes them.** In the Covers review, each row puts the file's own front cover, or No cover / Unreadable, beside the picture it will embed. The first row of a run that embeds the same picture shows it large, with its pixel size, file size and how many files get it. The pictures are read from disk.
+- **Keep library caption.** It now says what is saved: the list of your artists, albums and songs, and not the music. To play without a connection, use Offline Library.
+
 ## 1.0.52
 
 **Screen readers, arrow keys, and rating and heart on Play on**
