@@ -3,6 +3,18 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.54
+
+**Text fields set up for screen readers, client certificates, Offline Library**
+
+- **Text fields are set up for screen readers.** Every text input now carries a spoken name, the sign-in screen included. The disclosure rows on the sign-in screen are one named button that says collapsed or expanded.
+- **Client certificates.** A certificate is imported the moment you pick it, so a wrong or missing password keeps the password field on screen and says so. A bundle with no key in it is refused. In Settings, a refused import says so.
+- **Offline Library** is now Music files, Library info and Limits.
+- **Offline Home.** Recently Added, Favorites and Recently Played sit above Downloaded Albums while you are offline.
+- **Song rows keep room for the title.** Trailing items give way in a fixed order.
+- **Library Doctor duplicates.** Keep one copy of a track. The others go to the Trash.
+- **Lyrics that say only Instrumental** count as no lyrics.
+
 ## 1.0.53
 
 **Library Doctor shows the covers before it writes them**
