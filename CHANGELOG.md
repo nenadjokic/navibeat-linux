@@ -3,6 +3,17 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.52
+
+**Screen readers, arrow keys, and rating and heart on Play on**
+
+- **Screen readers.** Every Linux build now carries the AT-SPI bridge (java-atk-wrapper and the AT-SPI libraries it needs), set up for the Orca screen reader. It loads only when assistive technology is on in your desktop session, or when you start NaviBeat with `NAVIBEAT_A11Y=1`. `NAVIBEAT_A11Y=0` keeps it off.
+- **Controls with names.** The cover button in the player bar is read as "Open Mini Player", the "..." buttons as "More Actions" or "More options". The position and volume lines are read as "Playback position" and "Volume" with their current value. Rows in Up Next offer Play Now.
+- **Arrow keys.** Up and Down step the volume, Left and Right seek 10 seconds, wherever the focused control does not use the arrow itself. Once you move around with Tab, the sidebar keeps the arrows for itself. All four are in the command palette and on the Keyboard Shortcuts page.
+- **Play on carries rating and heart.** When you hand playback to another device over Connect, the song's rating and heart go with it, both ways. A NaviBeat that is being controlled confirms each command it applied.
+- **Sonic similarity first.** On a server that offers AudioMuse sonic similarity, Instant Mix, Because You Listened, Sonic Mixes and Discover ask for sonically similar songs first, and use the standard similar songs when that returns nothing.
+- **Offline playlists resume on the right song.** After NaviBeat opens again, a downloaded playlist starts at the song you were on, or the next downloaded song after it. Playing from the offline playlist page is remembered as that playlist for Continue.
+
 ## 1.0.51
 
 **A queue fill stays with the account it started under**
