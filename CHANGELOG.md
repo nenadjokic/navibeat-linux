@@ -3,6 +3,18 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.56
+
+**A-Z rail, Song Path, saved stations without the server, lyrics pauses**
+
+- **A-Z rail.** Artists, Composers, Albums and Songs get a letter rail. Click a letter to jump straight to it. It shows when the list is sorted by name.
+- **Songs keeps loading.** The Songs list now carries on past its first 200 rows as you scroll.
+- **Song Path.** Where your server advertises sonicSimilarity (AudioMuse), the song menu has Song Path to…, right after Play from Playlist. Pick where the path should end, then play it or save it as a playlist.
+- **Saved radio stations without the server.** A saved station plays from its own stream, so it works while your server is away. The offline Home lists your saved stations.
+- **Show Artist as a submenu.** A song with several credited artists opens a list of them, and you pick which artist to show.
+- **Lyrics pauses.** A pause bar fills before the first lyric line, and in word-by-word karaoke the pause after a sung line is timed from where the words really end.
+- **Quality badge on album tiles.** A new switch, Show quality in album grids, puts a Hi-Res, Lossless or High badge on the album grid tiles. It is off by default.
+
 ## 1.0.55
 
 **Play from Playlist, Add to Playlist in more places, genre tree sort**
