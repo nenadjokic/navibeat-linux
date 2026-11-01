@@ -3,6 +3,15 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.58
+
+**Name lookups take turns, mix taps replace each other, progress where you tap**
+
+- **Name lookups take turns.** When a mix, an artist's Play or Shuffle, or Year in Review turns song and artist names into library entries, the lookups now run one at a time in a queue of their own. Covers, playback and everything else you click in the meantime are no longer stuck behind a hundred searches.
+- **A new mix tap replaces the one under way.** Tap Discover Mix, then another mix, and only the second one plays. The first stops looking up songs the moment you tap.
+- **Progress where you tapped.** A mix tile shows a thin progress bar along its bottom edge while it works. An artist's Play and Shuffle buttons fill from left to right as their songs are found.
+- **Year in Review opens at once.** The page appears the moment you click it, with a progress bar, and the summary fills in when the lookups are done. An empty year says so, and a failed load has a Retry button.
+
 ## 1.0.57
 
 **Screen-reader field names, Mix with Playlist, a Playlists filter**
