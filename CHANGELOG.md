@@ -3,6 +3,15 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.61
+
+- **Radio stations given as playlists open.** An internet radio station saved as a .pls or .m3u address plays its stream.
+- **Smooth shuffle.** An optional setting in Settings. Shuffle picks each next song by genre, year, tempo and loudness, and avoids the same artist twice in a row when it can. It is active after Library Sync finishes its first sync.
+- **Show Artist lists every credited artist.** In the player menus, a song with several credited artists shows them in a submenu.
+- **Two voices, one steady view.** When two voices sing at once, synced lyrics keep the earlier line in view.
+- **Back to the start plays from the start.** Seeking back to 0:00 in a resumed stream plays the song from its beginning.
+- **The Now Playing bar grows with the text size.** The title and credit lines keep their margin at larger sizes.
+
 ## 1.0.60
 
 **An artist follows your library selection**
