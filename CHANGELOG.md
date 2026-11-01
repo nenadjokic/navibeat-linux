@@ -3,6 +3,14 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.57
+
+**Screen-reader field names, Mix with Playlist, a Playlists filter**
+
+- **Text fields for screen readers.** Every text field now gives a screen reader its label as the name and reads as editable. Measured through AT-SPI on Linux: a field that reported an empty name and no editable state now reports its label and the editable state, and the typed text stays readable. The password box keeps the name Password.
+- **Mix with Playlist.** The menu of a playlist has Mix with Playlist. Pick a second playlist and the two play one song at a time, alternating. While a mix is running, Up Next shows a Mixed with row and a Stop mix button that takes the second playlist's upcoming songs out and leaves everything else in place. In the terminal client, X in Up Next stops the mix.
+- **Filter on Playlists.** The Playlists page has a Filter field, like Radios, Artists and Songs. It narrows the list as you type, keeps a playlist inside its folder, and says No matches when nothing is left.
+
 ## 1.0.56
 
 **A-Z rail, Song Path, saved stations without the server, lyrics pauses**
