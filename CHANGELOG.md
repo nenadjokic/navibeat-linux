@@ -3,6 +3,14 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.60
+
+**An artist follows your library selection**
+
+- **An artist follows your library selection.** With a library selection set, an artist's albums, All Songs and Play on an artist show only the libraries you selected, so a record kept in two libraries appears once.
+- **Instant Mix and Artist Radio keep octo-fiesta songs.** Under a library selection, songs that come from octo-fiesta stay in the mix instead of being filtered out with the rest of the outside catalogue.
+- **Library Doctor works with a client certificate.** If your server asks for a client certificate, Library Doctor now presents it, the same as the rest of the app.
+
 ## 1.0.59
 
 **Add New Server, and a switch that checks its own target**
