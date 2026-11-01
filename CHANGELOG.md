@@ -3,6 +3,13 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.59
+
+**Add New Server, and a switch that checks its own target**
+
+- **Add New Server.** Settings has an Add New Server button beside Add Account on This Server, and the server switcher at the bottom of the sidebar, which appears once you have two saved servers, has the same entry. It asks for a server URL, a username and a password. The server you are connected to is saved first, so the way back is one row in your saved servers list.
+- **Switching checks the server you are switching to.** Choosing a saved server now tests that server's own address before anything changes, so a switch either lands on the server you picked or leaves your current session as it was.
+
 ## 1.0.58
 
 **Name lookups take turns, mix taps replace each other, progress where you tap**
