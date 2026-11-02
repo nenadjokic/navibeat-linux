@@ -3,6 +3,10 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.62
+
+- **Composers reads your whole library.** The Composers list now reads every artist on the server page by page, 500 at a time, instead of stopping at the first 5000. On a large library, composers past that point now appear.
+
 ## 1.0.61
 
 - **Radio stations given as playlists open.** An internet radio station saved as a .pls or .m3u address plays its stream.
