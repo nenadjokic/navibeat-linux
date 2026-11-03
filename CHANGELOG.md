@@ -3,6 +3,14 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.63
+
+- **Your settings stay set.** Open Now Playing when you press play, Hide NaviBeat Mixes in Playlists and the synced swipe-cover setting keep their value after you restart NaviBeat (issue #40).
+- **Song Path goes further.** A Song Path can now have up to 20 stops.
+- **" - EP" is dimmed.** A title that ends in " - EP" shows that part dimmed, like " - Single".
+- **A menu for radio in the mini player.** While a station plays, the mini player has a ... menu with Pin Window On Top and Open Station Website.
+- **Crossfade inside an album.** With Gapless playback off, crossfade also runs between songs of the same album.
+
 ## 1.0.62
 
 - **Composers reads your whole library.** The Composers list now reads every artist on the server page by page, 500 at a time, instead of stopping at the first 5000. On a large library, composers past that point now appear.
