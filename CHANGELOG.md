@@ -3,6 +3,11 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.64
+
+- **Quality lists in order.** Every stream and download quality picker lists Opus, then AAC, then MP3, each from highest to lowest.
+- **Continue keeps the shuffle.** Continue on a playlist you left shuffled picks up on the same song and keeps shuffling.
+
 ## 1.0.63
 
 - **Your settings stay set.** Open Now Playing when you press play, Hide NaviBeat Mixes in Playlists and the synced swipe-cover setting keep their value after you restart NaviBeat (issue #40).
