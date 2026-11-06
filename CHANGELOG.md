@@ -3,6 +3,18 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.65
+
+- **Library statistics by decade and genre.** Albums per decade, songs in your top genres, and the share of the library you have played.
+- **Song Path to Here.** From any song, build a path that ends on it and starts from the song that is playing. Set the number of stops in Settings.
+- **Artist counts are shortcuts.** The song count opens All Songs, the album count jumps to the albums.
+- **Similar artists you don't own.** The server's similar artists include names missing from your library, shown dimmed.
+- **Songs > Play plays the whole library.** It starts with the loaded rows and adds the rest page by page.
+- **Smoother crossfade.** The outgoing song always fades out before its file ends.
+- **Exact seeking in Ogg files.** Seeking in an Ogg Vorbis file played as is lands where you click.
+- **Home network behind split DNS.** One server address that resolves to a private address at home counts as home.
+- **Downloads keep small lossy files as they are.** A lossy file at or below the download quality is saved without converting.
+
 ## 1.0.64
 
 - **Quality lists in order.** Every stream and download quality picker lists Opus, then AAC, then MP3, each from highest to lowest.
