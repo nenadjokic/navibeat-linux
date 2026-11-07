@@ -3,6 +3,15 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.66
+
+- **Favorite Artists on Home.** A row of your starred artists sits right before Favorited, and it hides while it is empty.
+- **Home refreshes your favourites on every visit**, so a heart set on another device shows up when you come back to Home.
+- **Hearts in Offline Mode are kept.** A heart you set while the server is away is sent when it is back, and it already shows in your favourites lists.
+- **Readable song lists on Filled pages.** On a cover that is bright at the top and dark at the bottom, the list behind the tracks gets a stronger veil so artist names and durations stay readable.
+- **The last rows clear the player bar** on Home, Listening Stats, Downloads, the downloaded collections and record label pages.
+- **Correct Song shows the current values.** Each field has its name on the left and the song's current value as the hint.
+
 ## 1.0.65
 
 - **Library statistics by decade and genre.** Albums per decade, songs in your top genres, and the share of the library you have played.
