@@ -3,6 +3,10 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.67
+
+- **Casting to a speaker that is already playing.** When a UPnP speaker is already playing your queue's song from your server, for example one another app started, casting to it now takes over where the speaker is instead of sending the song again, so it keeps playing without starting over. A paused speaker resumes from its own position.
+
 ## 1.0.66
 
 - **Favorite Artists on Home.** A row of your starred artists sits right before Favorited, and it hides while it is empty.
