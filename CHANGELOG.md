@@ -3,6 +3,12 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.68
+
+- **Play on an album picks up where you were.** When the album has no saved place of its own, it now offers to continue from the last song you played in it (songs played from this version on). An album you finished starts again from track 1 without asking.
+- **Lyrics open on the current line.** The lyrics panel now opens right where the song is, without scrolling up from the first verse.
+- **No more false "Server unreachable".** Covers that are cancelled while you scroll fast no longer count as the server being away, so the library stays online.
+
 ## 1.0.67
 
 - **Casting to a speaker that is already playing.** When a UPnP speaker is already playing your queue's song from your server, for example one another app started, casting to it now takes over where the speaker is instead of sending the song again, so it keeps playing without starting over. A paused speaker resumes from its own position.
