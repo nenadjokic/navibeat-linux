@@ -3,6 +3,12 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.69
+
+- **Released on This Day on Home.** A new row of albums from your library that came out on today's date in earlier years, with the year and how long ago under each cover. It reads the full release date from your tags and stays hidden while nothing matches. Turn it off in Customize Home.
+- **Show source in shelf titles.** A switch in Settings, Music Data. On, the album and artist pages say "Similar Albums · Last.fm"; off, they say just "Similar Albums".
+- **Similar Artists names its source.** The shelf on artist and album pages now says whether Last.fm or ListenBrainz filled it. A shelf from your own server needs no label.
+
 ## 1.0.68
 
 - **Play on an album picks up where you were.** When the album has no saved place of its own, it now offers to continue from the last song you played in it (songs played from this version on). An album you finished starts again from track 1 without asking.
