@@ -3,6 +3,11 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.70
+
+- **Copy Share Link on every album tile.** Right-click an album anywhere in the app and copy its share link, without opening the album first.
+- **Casting speaks the speaker's own format names.** A renderer that lists a format only under another name, such as FLAC as audio/x-flac, is now told that name for the file it gets. AAC files reach speakers that list audio/x-aac, and APE and WavPack files are announced as what they are instead of as MP3.
+
 ## 1.0.69
 
 - **Released on This Day on Home.** A new row of albums from your library that came out on today's date in earlier years, with the year and how long ago under each cover. It reads the full release date from your tags and stays hidden while nothing matches. Turn it off in Customize Home.
