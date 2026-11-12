@@ -3,6 +3,13 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.71
+
+- **Artists song-count filter.** The Songs menu beside the sort on Artists now has All, 6+ and 10+, so artists with only a song or two can be hidden. The choice is remembered.
+- **All Songs remembers where you were.** Play on an artist's All Songs asks whether to continue from the last song or start over, and Home offers the same Continue slide.
+- **A click on a row stays a click.** Rows you can drag (albums, artists, playlists, songs, the sidebar) start a drag only after the mouse moves 6 dp with the button held, so a small wobble while clicking no longer turns into a drag. Thanks to the reporter of issue 42.
+- **Library Doctor on a multi-library Navidrome.** When one disk holds several Navidrome libraries and you chose the disk as the music folder, Library Doctor now finds the files: it tries the stored path, then the server's real path, then each library folder under the one you chose.
+
 ## 1.0.70
 
 - **Copy Share Link on every album tile.** Right-click an album anywhere in the app and copy its share link, without opening the album first.
