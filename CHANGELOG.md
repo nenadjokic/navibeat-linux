@@ -3,6 +3,11 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.72
+
+- **Classical works keep their full heading.** When a track's WORK tag names the whole work (Brahms' "Hungarian Dances" over a movement called "No. 5"), the album keeps the work's full name as the heading over its movements.
+- **About card on a light cover.** On an album or artist page tinted with its cover, the About card is now see-through on a light cover too, so the tint shows behind it instead of a white slab.
+
 ## 1.0.71
 
 - **Artists song-count filter.** The Songs menu beside the sort on Artists now has All, 6+ and 10+, so artists with only a song or two can be hidden. The choice is remembered.
