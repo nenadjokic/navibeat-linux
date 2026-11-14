@@ -3,6 +3,12 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.73
+
+- **Favorite radio stations.** Right-click a station in Radios and choose Add to Favorites. Starred stations go to the top of Radios and come first in Home's Radio Stations. Anyone can star a station, and the stars are kept on this computer.
+- **Sleep timer on Now Playing.** A moon button sits next to the "..." menu on the song Now Playing and opens the sleep timer, End of Track included. It fills in the accent while a timer runs.
+- **Classical headings on mixed albums.** On an album where a work covers two or more tracks, a work that has only one track keeps its heading too. An album made only of single movements still has no headings.
+
 ## 1.0.72
 
 - **Classical works keep their full heading.** When a track's WORK tag names the whole work (Brahms' "Hungarian Dances" over a movement called "No. 5"), the album keeps the work's full name as the heading over its movements.
