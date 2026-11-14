@@ -3,6 +3,11 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.74
+
+- **The x86_64 packages start again.** In 1.0.73 the x86_64 .deb, .rpm and Arch package installed `/opt/navibeat/usr/lib/app/NaviBeat.cfg` readable only by root, so NaviBeat would not start for a normal user. 1.0.74 installs it readable by everyone. The ARM packages were not affected.
+- **Every Linux build now checks its own file permissions** before it ships.
+
 ## 1.0.73
 
 - **Favorite radio stations.** Right-click a station in Radios and choose Add to Favorites. Starred stations go to the top of Radios and come first in Home's Radio Stations. Anyone can star a station, and the stars are kept on this computer.
