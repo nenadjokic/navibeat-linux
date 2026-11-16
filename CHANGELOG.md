@@ -3,6 +3,36 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.75
+
+- **Listen Together.** Host a session and friends join with a code or a pasted link, on any account. Guests add songs, the host keeps the controls.
+- **Smart Shuffle.** The Shuffle button has a third state: after every three songs it slots in a similar one from your library, marked Suggested in Up Next.
+- **Mix for now.** A Home tile with the mix for the current part of the day. The queue follows the clock.
+- **Fresh Finds and a Wishlist.** Songs from ListenBrainz and Last.fm you don't have yet, on Home. The Wishlist drops a song once your library has it.
+- **Pin to Home.** Pin albums, artists and playlists as your own rows on Home.
+- **Snooze for 30 days.** Keep a song or an artist out of shuffles and mixes for a month. Picking it yourself still plays it.
+- **Choose your player buttons** and their order.
+- **Credits in Get Info.** Every OpenSubsonic contributor, grouped by role. Get Info also lists every album artist.
+- **Composer** on album track rows and Now Playing, and **disc titles** on the album page.
+- **Animated album covers** play on the album page.
+- **Playlist folders** open one level at a time.
+- **Blend tiles** on the NaviBeat Mixes shelf.
+- **Play and Shuffle** on the Because You Listened shelf.
+- **Filter chips** over Favorite Songs, with Save as Smart Playlist.
+- **Albums and Years** filter by rating and release type.
+- **Year in Review** reads the server's own scrobble history on Navidrome 0.64 and newer.
+- **Songs Kept Ready**, and Pause/Resume on a queued download.
+- **Streaming source badges**, with a switch to hide them.
+- **Proxy header presets** beside Add header.
+- **A new setup wizard**, in the window and in the terminal client, with Run Setup Again.
+- Settings: Appearance & Language and Playback & Audio open to their own page.
+
+- **iPod and Rockbox sync** keeps the files already on the player when your server gives songs new IDs, for example after a Navidrome update. Before, a later sync could offer to delete them. When part of the library can't be loaded, the terminal now says which item failed.
+- **The full-window cover** loads at 1500 px instead of 400.
+- **Offline**, a downloaded song is listed under every genre it carries.
+- **Queued scrobbles** go out as soon as the server is back.
+- **The x86_64 slim AppImage starts on glibc 2.34** (RHEL 9, Rocky 9, Alma 9), with VLC from your system.
+
 ## 1.0.74
 
 - **The x86_64 packages start again.** In 1.0.73 the x86_64 .deb, .rpm and Arch package installed `/opt/navibeat/usr/lib/app/NaviBeat.cfg` readable only by root, so NaviBeat would not start for a normal user. 1.0.74 installs it readable by everyone. The ARM packages were not affected.
