@@ -3,6 +3,15 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.76
+
+- **Radio over NaviBeat Connect.** Pick a station while you control another NaviBeat and it plays there. Pick a device while a station plays and the station moves to it.
+
+- **Shuffle and Repeat follow the queue to another device.** What you set just before sending is what the other device plays with.
+- **Shuffle on a playlist while controlling another device** plays it shuffled there, and turning Shuffle off brings back the playlist order.
+- **Artist pages keep to the libraries you selected**, including the albums under Appears On.
+- **Appears On lists cover albums** for artists with a big discography of their own.
+
 ## 1.0.75
 
 - **Listen Together.** Host a session and friends join with a code or a pasted link, on any account. Guests add songs, the host keeps the controls.
