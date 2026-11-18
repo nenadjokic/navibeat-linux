@@ -3,6 +3,13 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.78
+
+- **Plays that waited offline go to your server as soon as it is back**, not when the next song starts: when the window comes back to the front, at launch, when Offline Mode is switched off, when you switch servers or addresses, and once a minute while any are waiting.
+- **A song you resume is counted once**, not twice.
+- **The artist song-count filter** no longer holds up the window when you change it.
+- **Casting to a network speaker** writes what the speaker was sent and how it answered to the terminal log, which helps when a speaker stays silent.
+
 ## 1.0.77
 
 - **Speaker volume keeps up with the slider.** The last value of a quick drag always reaches the speaker, also right after you switch to another speaker.
