@@ -3,6 +3,14 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.77
+
+- **Speaker volume keeps up with the slider.** The last value of a quick drag always reaches the speaker, also right after you switch to another speaker.
+- **Listen Together: a wrong code changes nothing.** Your hosted session, your seat as a guest and the device you control all stay as they were.
+- **Listen Together: Done while it searches closes the screen for good**, and a link opened while the Join screen is up fills in its code.
+- **Skip for now in setup holds until you restart the app.**
+- **Screen readers** read the setup page counter as "Page n of m" and the Listen Together code and playing state.
+
 ## 1.0.76
 
 - **Radio over NaviBeat Connect.** Pick a station while you control another NaviBeat and it plays there. Pick a device while a station plays and the station moves to it.
