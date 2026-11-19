@@ -3,6 +3,18 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.79
+
+- **Export Settings and Import Settings** in About: save every setting to a file and restore it later, or on another computer. A file from NaviBeat on an iPhone or a Mac restores the settings both have.
+- **Downloaded songs follow your server.** New covers and changed titles reach your downloads, and a song that was removed from the server is marked "No longer on the server" and keeps playing.
+- **Word-by-word lyrics** from lyrics files that carry a time stamp before each word.
+- **A switch for the filter button** in Settings > Sidebar.
+- **Connect shows the radio station** another device is playing.
+
+- **Artist pages** no longer show sections named A, B, L, M, U when a tagger split the release type into single letters.
+- **Rockbox:** a play with a Japanese, Chinese, Cyrillic or other non-Latin title is scrobbled to its own song, and Fix metadata and Find Missing Artwork no longer take a same-name album by another artist.
+- **The All Music button** in the sidebar shows the filter icon.
+
 ## 1.0.78
 
 - **Plays that waited offline go to your server as soon as it is back**, not when the next song starts: when the window comes back to the front, at launch, when Offline Mode is switched off, when you switch servers or addresses, and once a minute while any are waiting.
