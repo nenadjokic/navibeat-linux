@@ -3,6 +3,12 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.80
+
+- **Playback Speed** from 0.5x to 2.0x, with Keep pitch. Open it from the More menu on the Now Playing page, the player bar or the mini player, or set it in Settings. Radio and speakers play at 1.0x.
+
+- **Rockbox:** Fix metadata and Find Missing Artwork now match albums named only with symbols, like "+", "×" or "÷", to their own folder, and an album by the exact artist wins over a "feat." album of the same name.
+
 ## 1.0.79
 
 - **Export Settings and Import Settings** in About: save every setting to a file and restore it later, or on another computer. A file from NaviBeat on an iPhone or a Mac restores the settings both have.
