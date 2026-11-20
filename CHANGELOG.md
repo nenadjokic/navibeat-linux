@@ -3,6 +3,21 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.81
+
+- **Mood and Context mixes** in Made for You while Last.fm is connected.
+- **Discover Mix** now works without Last.fm. Replay and Time Machine ask your server, Last.fm, ListenBrainz and this computer in one order, and an empty mix says which sources it checked.
+- **Songs:** clicking a song plays the whole library from that song, and Play waits for a sorted list to finish loading.
+- **Rockbox:** a Sync ratings button next to Sync scrobbles, with a review window where you pick "Fill blanks only" or "Device wins".
+- **Settings backup:** a file from another device only adds what it carries, and a restore offers Undo. Favorite radio stations stay on the device.
+
+- **Leaving the server jukebox** hands the sound back to this computer right away.
+- **Save in Up Next** keeps the playing song as the first track.
+- **Downloads:** the "No longer on the server" mark shows only on the server the song came from.
+- **Rockbox:** Fix metadata reads "2-03 Title" as track 3, and the Template and Server layouts write only what the server song says.
+- **Play on:** taking back a radio station that isn't in your radio list here says so.
+- Playback Speed lives in the More menu, and the position is right after a seek at any speed.
+
 ## 1.0.80
 
 - **Playback Speed** from 0.5x to 2.0x, with Keep pitch. Open it from the More menu on the Now Playing page, the player bar or the mini player, or set it in Settings. Radio and speakers play at 1.0x.
