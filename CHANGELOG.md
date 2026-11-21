@@ -3,6 +3,22 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.84
+
+- **Album tags:** on a Navidrome server, the album page shows your custom album tags as chips. A chip opens every album with that value, and Settings > Sidebar > Pinned Tags puts a tag in the sidebar.
+- **Record Labels** in the sidebar, with each label's album count.
+- **Keyboard Shortcuts** can be changed: click a shortcut to record a new one. Your changes travel in the settings backup file.
+- **Don't convert lossy files:** MP3 and AAC stream and download as they are, and lossless files still follow your quality setting.
+- **Show composers** on album pages and in Now Playing.
+- **Exclude from Shuffle** takes a yearly "Only between" window.
+- **Compact song rows** for playlist pages, a switch in Appearance.
+
+- **The mouse Back button** goes back a page on Linux.
+- **Similar Artists** and **Hide entries not in your library** are there without a Last.fm or ListenBrainz account.
+- **Search** starts empty when you come back to it.
+- **Save in Up Next** is off while a radio station plays.
+- The Output popup scrolls, so every option is reachable.
+
 ## 1.0.81
 
 - **Mood and Context mixes** in Made for You while Last.fm is connected.
