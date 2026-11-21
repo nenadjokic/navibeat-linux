@@ -3,6 +3,12 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.85
+
+- **Import Listening History**, in Settings > Library & Data. Bring your plays, liked songs and playlists from Spotify or Last.fm into your Navidrome server, with each play at its original date. Open the ZIP or the JSON files from a Spotify data export, or read the history of your connected Last.fm account.
+- The import uses its own player on your server and turns its scrobbling off before it sends anything, so the old plays are not posted to your Last.fm or ListenBrainz again.
+- Plays it already sent are skipped, and on Navidrome 0.64 or newer so are plays your server already has, so running the same import twice does not count anything twice.
+
 ## 1.0.84
 
 - **Album tags:** on a Navidrome server, the album page shows your custom album tags as chips. A chip opens every album with that value, and Settings > Sidebar > Pinned Tags puts a tag in the sidebar.
