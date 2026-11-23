@@ -3,6 +3,16 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.86
+
+- **Edit Quick Play:** add up to four tiles of your own after the four on Home: a genre, a radio station, a playlist or an artist. Right-click a Quick Play tile or the Quick Play heading, or use Settings > Appearance > Edit Quick Play. Each server and account keeps its own tiles.
+- **Song menu:** choose the order of a song's right-click menu and hide the actions you never use, in Settings > Playback > Song menu. The Now Playing menus follow the same order.
+- **Unrated** in the Albums Rating filter, right under Any Rating: only the albums you have not rated yet.
+- **BPM** in the smart playlist rules, with "is at least" and "is at most". Songs with no BPM tag never match.
+
+- **Lyrics** show when a song carries more than one lyrics tag and the first one is empty.
+- A server address typed with **/rest** at the end remembers what it learns about the server, so it no longer repeats a refused request.
+
 ## 1.0.85
 
 - **Import Listening History**, in Settings > Library & Data. Bring your plays, liked songs and playlists from Spotify or Last.fm into your Navidrome server, with each play at its original date. Open the ZIP or the JSON files from a Spotify data export, or read the history of your connected Last.fm account.
