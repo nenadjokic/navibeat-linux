@@ -3,6 +3,11 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.87
+
+- **Lyrics** whose lines are all blank now show the "No lyrics" state instead of an empty panel.
+- **Server Health** counts a track as having lyrics only when the lyrics have words, the same rule the lyrics panel uses.
+
 ## 1.0.86
 
 - **Edit Quick Play:** add up to four tiles of your own after the four on Home: a genre, a radio station, a playlist or an artist. Right-click a Quick Play tile or the Quick Play heading, or use Settings > Appearance > Edit Quick Play. Each server and account keeps its own tiles.
