@@ -3,6 +3,12 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.88
+
+- **Library Only** on artist pages: on a server that mixes streaming albums into your library through octo-fiesta, the Albums Sort menu has a Show choice, All Sources or Library Only. It appears only for an artist with both kinds.
+- **Popular** plays your best copy of a song when your library has one (lossless or Hi-Res, or a higher bit rate).
+- **Auto preamp** for the equalizer: on by default, it lowers the whole equalizer by its biggest boost so the curve never goes above 0 dB. The Preamp is added on top.
+
 ## 1.0.87
 
 - **Lyrics** whose lines are all blank now show the "No lyrics" state instead of an empty panel.
