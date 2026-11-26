@@ -3,6 +3,13 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.89
+
+- **Server out of reach:** a song that can't start because the server doesn't answer is skipped to the next song in the queue that's downloaded on this computer, or playback pauses when there is none.
+- **Favorites** shows your last saved starred list while the fresh one loads.
+- **Search:** a search the next keystroke replaced no longer writes its older results over the newer ones.
+- **NaviPen** joins More From Nenad Jokic in Settings.
+
 ## 1.0.88
 
 - **Library Only** on artist pages: on a server that mixes streaming albums into your library through octo-fiesta, the Albums Sort menu has a Show choice, All Sources or Library Only. It appears only for an artist with both kinds.
