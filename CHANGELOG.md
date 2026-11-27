@@ -3,6 +3,17 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.90
+
+- **Saved Queues:** save the play queue under a name from the Up Next menu and pick it up later at the same song and second, from Saved Queues in the sidebar.
+- **Album sort on genre and record label pages**, with Release Date oldest first as a new order.
+- **Always Show Libraries** (Settings > Server) lists two or more libraries in the sidebar as rows with a checkmark.
+- **Downloads** shows Albums and Playlists as cover grids.
+- **Scroll over a volume control** to change NaviBeat's own volume.
+- **Fit non-square artwork** keeps the cover's own shape, corners and shadow included.
+- **Show status on the badge** turns the Download, Transcode and Offline words on the quality badge on or off together.
+- Output left silent while a song plays gets its volume back by itself, and the player clock follows libVLC's own events.
+
 ## 1.0.89
 
 - **Server out of reach:** a song that can't start because the server doesn't answer is skipped to the next song in the queue that's downloaded on this computer, or playback pauses when there is none.
