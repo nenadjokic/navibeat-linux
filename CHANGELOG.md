@@ -3,6 +3,14 @@
 Every release attaches a fresh AppImage. Newest first. Each version's full note is on its
 [release page](../../releases).
 
+## 1.0.91
+
+- **Pinned tags browse like Genres:** a pinned Navidrome album tag shows its values as Genre tiles, with a filter and a Most Albums / Alphabetical sort, and a value opens a page like a genre's, with albums, artists, songs and Shuffle.
+- **YouTube Music history import:** Import Listening History reads a YouTube Music Takeout, the ZIP straight from disk, and "How to get the file" walks through the export.
+- **Keep Streamed Songs** keeps a song when it starts playing, one song at a time.
+- **Year in Review:** the cover year and the totals stay on one line and shrink to fit.
+- An open pinned tag lights its own row in the sidebar, and a genre page's album filter shows the albums it matched.
+
 ## 1.0.90
 
 - **Saved Queues:** save the play queue under a name from the Up Next menu and pick it up later at the same song and second, from Saved Queues in the sidebar.
